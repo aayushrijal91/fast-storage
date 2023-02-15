@@ -1,0 +1,103 @@
+@function imgUrl($file, $path: "background"){
+@return url("../images/" + $path + "/" + $file) no-repeat;
+}
+
+header {
+    background: $secondary;
+    padding: 27px 0;
+
+    .border {
+        border-width: 1.5px !important;
+    }
+}
+
+section.banner {
+    background: imgUrl('banner.png') right center $primary;
+    background-size: contain;
+    padding: 134px 0 81px;
+    color: $white;
+}
+
+section.size {
+    background: imgUrl('wemove-arrow.png') right center $tertiary;
+    background-size: contain;
+    padding: 145px 0 111px;
+
+    input[type="radio"] {
+        opacity: 0;
+        position: fixed;
+        width: 0;
+    }
+
+    .radio-toolbar {
+        .bar {
+            position: absolute;
+            top: -23px;
+            width: 100%;
+            height: 20px;
+            background: $secondary;
+            border: 1px solid #306861;
+            box-shadow: inset 0px 0px 8px rgba(42, 49, 46, 0.7);
+            border-radius: 11px;
+            outline: none;
+        }
+
+        label {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            cursor: pointer;
+            line-height: 0.88;
+            color: $grey;
+            letter-spacing: -0.03em;
+            min-height: 200px;
+            width: 100%;
+            font-size: 17px;
+            padding: 24px 4px 20px;
+            transition: 0.2s all;
+            position: relative;
+
+            &:hover {
+                color: $primary;
+            }
+
+            .vertical-line {
+                margin: 0 auto;
+                width: 1px;
+                height: 33px;
+                background: $grey;
+            }
+        }
+    }
+
+    .radio-toolbar input[type="radio"]:checked+label {
+        font-size: 25px;
+        color: $primary;
+
+        &::before {
+            position: absolute;
+            top: -51px;
+            right: 0;
+            left: 0;
+            content: "";
+            margin: 0 auto;
+            width: 135px;
+            height: 88px;
+            background: imgUrl('storage-icon.png', 'icons');
+            transition: 0.2s all;
+        }
+    }
+
+    .form-check-input:checked+.form-check-label .radio-button-circle {
+        background-color: $primary;
+    }
+}
+
+footer {
+    font-size: 0.875rem;
+    background-color: #221f1f;
+
+    @include media-breakpoint-down(sm) {
+        font-size: 0.61rem;
+    }
+}
