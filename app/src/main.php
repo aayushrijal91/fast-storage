@@ -36,16 +36,15 @@
 
 <div class="bg-secondary pt-2 pb-3"></div>
 
-<section class="size">
+<section class="size" id="prices">
     <div class="container">
         <div class="text-primary fs-63 fw-700 ls-3">find the <span class="bg-quartinary text-white">right size</span> for your storage solution<span class="text-quartinary">.</span></div>
         <div class="ls-3 pt-4 pb-9 text-grey fw-500">select the size below that currently matches your own property the best to find out which size is right for you.</div>
 
-
         <div class="row radio-toolbar g-3 gx-md-2 position-relative">
             <div class="bar"></div>
             <div class="col-4 col-lg">
-                <input class="form-check-input form-control box-size" type="radio" name="boxSize" value="119" id="boxSize_1" checked>
+                <input class="form-check-input form-control box-size" type="radio" name="boxSize" value="1" id="boxSize_1" checked>
                 <label class="form-check-label" for="boxSize_1">
                     <div>
                         <div class="vertical-line"></div>
@@ -59,7 +58,7 @@
                 </label>
             </div>
             <div class="col-4 col-lg">
-                <input class="form-check-input form-control box-size" type="radio" name="boxSize" value="120" id="boxSize_2">
+                <input class="form-check-input form-control box-size" type="radio" name="boxSize" value="2" id="boxSize_2">
                 <label class="form-check-label" for="boxSize_2">
                     <div>
                         <div class="vertical-line"></div>
@@ -73,7 +72,7 @@
                 </label>
             </div>
             <div class="col-4 col-lg">
-                <input class="form-check-input form-control box-size" type="radio" name="boxSize" value="125" id="boxSize_3">
+                <input class="form-check-input form-control box-size" type="radio" name="boxSize" value="3" id="boxSize_3">
                 <label class="form-check-label" for="boxSize_3">
                     <div>
                         <div class="vertical-line"></div>
@@ -87,7 +86,7 @@
                 </label>
             </div>
             <div class="col-4 col-lg">
-                <input class="form-check-input form-control box-size" type="radio" name="boxSize" value="130" id="boxSize_4">
+                <input class="form-check-input form-control box-size" type="radio" name="boxSize" value="4" id="boxSize_4">
                 <label class="form-check-label" for="boxSize_4">
                     <div>
                         <div class="vertical-line"></div>
@@ -101,7 +100,7 @@
                 </label>
             </div>
             <div class="col-4 col-lg">
-                <input class="form-check-input form-control box-size" type="radio" name="boxSize" value="135" id="boxSize_5">
+                <input class="form-check-input form-control box-size" type="radio" name="boxSize" value="5" id="boxSize_5">
                 <label class="form-check-label" for="boxSize_5">
                     <div>
                         <div class="vertical-line"></div>
@@ -115,7 +114,7 @@
                 </label>
             </div>
             <div class="col-4 col-lg">
-                <input class="form-check-input form-control box-size" type="radio" name="boxSize" value="140" id="boxSize_6">
+                <input class="form-check-input form-control box-size" type="radio" name="boxSize" value="6" id="boxSize_6">
                 <label class="form-check-label" for="boxSize_6">
                     <div>
                         <div class="vertical-line"></div>
@@ -130,8 +129,19 @@
             </div>
         </div>
 
-        <div class="text-center fs-25 ls-3 text-grey">
-            you've chosen... <span class="text-primary fs-60 fw-700 ps-4">the mini box - <span id="box-price">119</span></span><span class="fw-500">/month</span>
+        <div class="text-center fs-25 ls-3 text-grey row justify-content-center align-items-center gx-0">
+            <div class="col-auto">you've chosen...</div>
+            <div class="text-primary fs-60 fw-700 col-6 lh-1">
+                <div class="price-box">
+                    <div>the mini box - 119</div>
+                    <div>the macro box - 120</div>
+                    <div>the macro box - 130</div>
+                    <div>the macro box - 140</div>
+                    <div>the macro box - 150</div>
+                    <div>the macro box - 160</div>
+                </div>
+            </div>
+            <div class="col-auto fw-500">/month</div>
         </div>
 
         <div class="text-center pt-6">
@@ -140,7 +150,7 @@
     </div>
 </section>
 
-<section class="form-1" id="form-1">
+<section class="form-1" id="form">
     <div class="container">
         <div class="row justify-content-between">
             <div class="col-lg-6">
@@ -261,7 +271,7 @@
                     <div class="pt-5 content">
                         <div class="fs-35 fw-900 ls-3 lh-1">24/7 Security on all Storage Units</div>
                         <div class="py-3 lh-1_7 text-lowercase">Our StorageBox units offer a <strong>high-quality, responsible, and reliable end-to-end</strong> storage service that starts with our professional removalists who will load your belongings into your storage unit <strong>with your supervision.</strong></div>
-                        <div><a href="#form" class="btn btn-quartinary text-white rounded-0 px-5 d-inline-flex">see prices</a></div>
+                        <div><a href="#prices" class="btn btn-quartinary text-white rounded-0 px-5 d-inline-flex">see prices</a></div>
                     </div>
                 </div>
             </div>

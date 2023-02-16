@@ -1,6 +1,6 @@
 // AOS.init({ duration: 1500 });
 
-document.querySelectorAll('a[href="#form"]').forEach(function (anchor) {
+document.querySelectorAll('a[href="#form"], a[href="#prices"]').forEach(function (anchor) {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
 
@@ -24,16 +24,22 @@ $('#return-to-top').on('click', () => {
     }, 500);
 });
 
-$('.box-size').on('change', function() {
-    $("#box-price").html($(this).val());
-});
-
 $(".testimonial-slider").slick({
     slidesToShow: 2,
     slidesToScroll: 1,
     arrows: false,
     centerMode: true,
     centerPadding: "100px"
+});
+
+let priceBox = $(".price-box").slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false
+});
+
+$('.box-size').on('change', function () {
+    priceBox.slick('slickGoTo', parseInt($(this).val()) - 1);
 });
 
 let emailText = $("#admin-email").html();
