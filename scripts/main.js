@@ -34,4 +34,8 @@ $(".testimonial-slider").slick({
     arrows: false,
     centerMode: true,
     centerPadding: "100px"
-})
+});
+
+let emailText = $("#admin-email").html();
+let newText = emailText.replaceAll('.', '<span class="text-primary">.</span>');
+$("#admin-email").html(newText);

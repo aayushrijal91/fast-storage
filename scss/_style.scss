@@ -104,63 +104,63 @@ section.form-1 {
     padding: 104px 0;
     background: $secondary;
     color: $white;
+}
 
-    form {
-        .horizontal-line {
-            height: 2px;
-            background: $white;
-        }
+form.main-form {
+    .horizontal-line {
+        height: 2px;
+        background: $white;
+    }
 
-        input {
-            background: none;
-            border: 0;
-            border-bottom: 2px solid $white;
-            padding: 0 0 16px 0;
-            border-radius: 0;
-            font-size: 20px;
-            letter-spacing: -0.02em;
-            font-weight: 600;
-            color: $white !important;
+    input {
+        background: none;
+        border: 0;
+        border-bottom: 2px solid $white;
+        padding: 0 0 16px 0;
+        border-radius: 0;
+        font-size: 20px;
+        letter-spacing: -0.02em;
+        font-weight: 600;
+        color: $white !important;
 
-            &::placeholder {
-                color: $white;
-            }
-        }
-
-        label {
-            font-size: 20px;
-            font-weight: 600;
-            letter-spacing: -0.02em;
-        }
-
-        select {
-            background: rgba(255, 255, 255, 0.2);
-            border: 2px solid $white;
-            border-radius: 2px;
+        &::placeholder {
             color: $white;
         }
+    }
 
-        textarea {
-            background: none;
-            border: 2px solid $white;
-            border-radius: 5px;
-            color: $white !important;
-            letter-spacing: -0.02em;
+    label {
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: -0.02em;
+    }
 
-            &::placeholder {
-                color: $white;
-            }
+    select {
+        background: rgba(255, 255, 255, 0.2);
+        border: 2px solid $white;
+        border-radius: 2px;
+        color: $white;
+    }
+
+    textarea {
+        background: none;
+        border: 2px solid $white;
+        border-radius: 5px;
+        color: $white !important;
+        letter-spacing: -0.02em;
+
+        &::placeholder {
+            color: $white;
         }
+    }
 
-        input,
-        select,
-        textarea {
-            &:focus {
-                box-shadow: none;
-                background: none;
-                outline: none;
-                border-color: $white;
-            }
+    input,
+    select,
+    textarea {
+        &:focus {
+            box-shadow: none;
+            background: none;
+            outline: none;
+            border-color: $white;
         }
     }
 }
@@ -251,11 +251,13 @@ section.testimonials {
     }
 }
 
-footer {
-    font-size: 0.875rem;
-    background-color: #221f1f;
+section.quick-contact {
+    background: $tertiary;
+    padding: 118px 0;
+}
 
-    @include media-breakpoint-down(sm) {
-        font-size: 0.61rem;
-    }
+footer {
+    background: $secondary;
+    padding: 111px 0;
+    color: $white;
 }
