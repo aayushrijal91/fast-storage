@@ -67,6 +67,12 @@ section.size {
                 height: 33px;
                 background: $grey;
             }
+
+            svg {
+                transform: translateX(0);
+                transition: 0.2s all;
+                opacity: 1;
+            }
         }
     }
 
@@ -86,10 +92,121 @@ section.size {
             background: imgUrl('storage-icon.png', 'icons');
             transition: 0.2s all;
         }
+
+        svg {
+            transform: translateX(-70px);
+            opacity: 0;
+        }
+    }
+}
+
+section.form-1 {
+    padding: 104px 0;
+    background: $secondary;
+    color: $white;
+
+    form {
+        .horizontal-line {
+            height: 2px;
+            background: $white;
+        }
+
+        input {
+            background: none;
+            border: 0;
+            border-bottom: 2px solid $white;
+            padding: 0 0 16px 0;
+            border-radius: 0;
+            font-size: 20px;
+            letter-spacing: -0.02em;
+            font-weight: 600;
+            color: $white !important;
+
+            &::placeholder {
+                color: $white;
+            }
+        }
+
+        label {
+            font-size: 20px;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+        }
+
+        select {
+            background: rgba(255, 255, 255, 0.2);
+            border: 2px solid $white;
+            border-radius: 2px;
+            color: $white;
+        }
+
+        textarea {
+            background: none;
+            border: 2px solid $white;
+            border-radius: 5px;
+            color: $white !important;
+            letter-spacing: -0.02em;
+
+            &::placeholder {
+                color: $white;
+            }
+        }
+
+        input,
+        select,
+        textarea {
+            &:focus {
+                box-shadow: none;
+                background: none;
+                outline: none;
+                border-color: $white;
+            }
+        }
+    }
+}
+
+section.about-1 {
+    padding: 184px 0 141px;
+    background: imgUrl('about-1.png') right center;
+}
+
+section.about-2 {
+    background: imgUrl('about-2.png') left center $primary;
+    color: $white;
+
+    .boxedTrolley {
+        position: absolute;
+        bottom: -60px;
     }
 
-    .form-check-input:checked+.form-check-label .radio-button-circle {
-        background-color: $primary;
+    .content-box {
+        padding-top: 163px;
+        padding-bottom: 163px;
+    }
+}
+
+section.about-3 {
+    padding: 180px 0;
+    background: imgUrl('about-3.png') right center;
+}
+
+section.why-us {
+    background: $primary;
+    color: $white;
+    padding: 153px 0 116px;
+
+    .why-us-card {
+        text-align: center;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            flex: 1;
+        }
     }
 }
 

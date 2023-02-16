@@ -4,7 +4,7 @@ $tertiary: #CBDEDE;
 $quartinary: #00B8B1;
 $black: #000000;
 $white: #ffffff;
-$light: #f3f3f3;
+$light: #CBDEDE;
 $dark: #8B8B8B;
 $grey: #595959;
 
@@ -87,7 +87,7 @@ $utilities: map-merge(("line-height":(property: line-height,
                 values: (1:1,
                     2:2,
                     "0_77": 0.77,
-                    4:4,
+                    "1_7": 1.7,
                 )),
             "rounded": (property: border-radius,
                 class: rounded,
