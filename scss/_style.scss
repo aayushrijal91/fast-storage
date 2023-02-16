@@ -210,6 +210,47 @@ section.why-us {
     }
 }
 
+section.testimonials {
+    padding: 140px 0 134px;
+
+    .vertical-line {
+        width: 1px;
+        background: $primary;
+        height: 47px;
+    }
+
+    .vertical-line-sm {
+        width: 1px;
+        height: 33px;
+        background: #f9a992;
+    }
+
+    .review-platform {
+        height: 46px;
+        display: flex;
+        align-items: center;
+    }
+
+    .testimonial-slider {
+        .slick-track {
+            display: flex;
+            margin-left: -92px;
+        }
+
+        .slick-slide {
+            height: inherit;
+        }
+
+        .testimonial-card {
+            padding: 31px 29px 58px;
+            background: $primary;
+            color: $white;
+            text-transform: lowercase;
+            margin: 0 9.5px;
+        }
+    }
+}
+
 footer {
     font-size: 0.875rem;
     background-color: #221f1f;

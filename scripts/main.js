@@ -26,4 +26,12 @@ $('#return-to-top').on('click', () => {
 
 $('.box-size').on('change', function() {
     $("#box-price").html($(this).val());
+});
+
+$(".testimonial-slider").slick({
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    arrows: false,
+    centerMode: true,
+    centerPadding: "100px"
 })

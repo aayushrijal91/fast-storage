@@ -269,7 +269,7 @@
                 <div class="why-us-card">
                     <?= renderImg('whyus-2.png', 'lib') ?>
                     <div class="pt-5 content">
-                        <div class="fs-35 fw-900 ls-3 lh-1">2-in-1 removalist  & storage Team</div>
+                        <div class="fs-35 fw-900 ls-3 lh-1">2-in-1 removalist & storage Team</div>
                         <div class="py-3 lh-1_7 text-lowercase">At fast Storage, we believe in providing a <strong>comprehensive storage solution</strong> that takes care of all your storage needs. Our mission is to be your <strong>one point of contact for everything</strong> related to storage.</div>
                         <div><a href="tel: <?= $phone_number ?>" class="btn btn-quartinary text-white rounded-0 px-5 d-inline-flex"><?= $phone_number ?></a></div>
                     </div>
@@ -283,6 +283,114 @@
                         <div class="py-3 lh-1_7">We then transport and store your items at our secure, monitored storage facilities, and even offer the option to add storage insurance for peace of mind.</div>
                         <div><a href="#form" class="btn btn-quartinary text-white rounded-0 px-5 d-inline-flex">enquire now</a></div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="testimonials">
+    <div class="container-fluid">
+        <div class="row justify-content-end">
+            <div class="col-4">
+                <div class="text-primary fs-63 fw-700 ls-3 lh-1">your <span class="text-white bg-quartinary">trusted</span> removalist &amp; storage services in sydney<span class="text-quartinary">.</span></div>
+                <div class="row align-items-center py-5">
+                    <div class="col-auto"><?= renderImg('google.png', 'icons') ?></div>
+                    <div class="col-auto d-flex align-items-center">
+                        <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.1939 1.56143C13.5515 0.648695 14.8431 0.648698 15.2006 1.56143L18.0598 8.85997C18.213 9.25128 18.5798 9.51777 18.9994 9.54263L26.8242 10.0064C27.8027 10.0644 28.2019 11.2929 27.4443 11.915L21.3865 16.8895C21.0617 17.1562 20.9216 17.5874 21.0276 17.9941L23.0045 25.5793C23.2517 26.5279 22.2068 27.2871 21.381 26.7588L14.778 22.5347C14.424 22.3082 13.9706 22.3082 13.6166 22.5347L7.0135 26.7588C6.18775 27.2871 5.1428 26.5279 5.39003 25.5793L7.36693 17.9941C7.47292 17.5874 7.33281 17.1562 7.00803 16.8895L0.950217 11.915C0.192648 11.2929 0.591783 10.0644 1.57033 10.0064L9.39518 9.54263C9.8147 9.51777 10.1815 9.25128 10.3348 8.85997L13.1939 1.56143Z" fill="#E85429" />
+                        </svg>
+                        <span class="fs-32 ls-3 text-grey fw-700 lh-1">(4.2)</span>
+                    </div>
+                    <div class="col-auto">
+                        <div class="vertical-line"></div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="text-grey lh-0_77 fs-32 ls-3 fw-700">624+</div>
+                        <div class="fs-19 ls-3 lh-1">reviews</div>
+                    </div>
+                </div>
+                <div class="row gx-3">
+                    <div class="col-auto">
+                        <div class="review-platform bg-primary-light px-2 py-1">
+                            <div class="row align-items-center gx-2">
+                                <div class="col-auto"><?= renderImg('truelocal.png', 'icons') ?></div>
+                                <div class="col-auto">
+                                    <div class="vertical-line-sm"></div>
+                                </div>
+                                <div class="col-auto">
+                                    <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8.99789 1.14792C9.27539 0.439533 10.2779 0.439532 10.5554 1.14792L12.3874 5.82454C12.5063 6.12824 12.791 6.33507 13.1166 6.35437L18.1305 6.65156C18.8899 6.69658 19.1997 7.64998 18.6117 8.1328L14.7301 11.3203C14.4781 11.5273 14.3693 11.862 14.4516 12.1776L15.7183 17.0379C15.9102 17.7741 15.0992 18.3633 14.4583 17.9533L10.2273 15.2467C9.95256 15.0709 9.60068 15.0709 9.32592 15.2467L5.09495 17.9533C4.45406 18.3633 3.64305 17.7741 3.83493 17.0379L5.10164 12.1776C5.18391 11.862 5.07517 11.5273 4.8231 11.3203L0.941494 8.1328C0.353527 7.64998 0.663303 6.69658 1.42278 6.65156L6.43663 6.35437C6.76223 6.33507 7.0469 6.12824 7.16587 5.82454L8.99789 1.14792Z" fill="#FFF16F" />
+                                    </svg>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="fs-23 ls-3 fw-700 text-white lh-1">(4.9)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="review-platform bg-quartinary px-2 py-1">
+                            <div class="row align-items-center gx-2">
+                                <div class="col-auto"><?= renderImg('yellowpages.png', 'icons') ?></div>
+                                <div class="col-auto">
+                                    <div class="vertical-line-sm"></div>
+                                </div>
+                                <div class="col-auto">
+                                    <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8.99789 1.14792C9.27539 0.439533 10.2779 0.439532 10.5554 1.14792L12.3874 5.82454C12.5063 6.12824 12.791 6.33507 13.1166 6.35437L18.1305 6.65156C18.8899 6.69658 19.1997 7.64998 18.6117 8.1328L14.7301 11.3203C14.4781 11.5273 14.3693 11.862 14.4516 12.1776L15.7183 17.0379C15.9102 17.7741 15.0992 18.3633 14.4583 17.9533L10.2273 15.2467C9.95256 15.0709 9.60068 15.0709 9.32592 15.2467L5.09495 17.9533C4.45406 18.3633 3.64305 17.7741 3.83493 17.0379L5.10164 12.1776C5.18391 11.862 5.07517 11.5273 4.8231 11.3203L0.941494 8.1328C0.353527 7.64998 0.663303 6.69658 1.42278 6.65156L6.43663 6.35437C6.76223 6.33507 7.0469 6.12824 7.16587 5.82454L8.99789 1.14792Z" fill="#FFF16F" />
+                                    </svg>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="fs-23 ls-3 fw-700 text-white lh-1">(4.9)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <?php
+                $testimonials = [
+                    [
+                        "name" => "amanda galea",
+                        "comment" => "...the men were very professional, courteous and respectful during the whole process and regularly checked in with me to make sure I was happy or to let me know when they found items already damaged before they packed them. They were careful with how they stacked the boxes and very thorough, didn’t miss a thing. A really great service from a great team of men and would definitely use again!",
+                    ],
+                    [
+                        "name" => "Aayush Rijal",
+                        "comment" => "...the men were very professional, ",
+                    ],
+                    [
+                        "name" => "Aayush Rijal",
+                        "comment" => "...the men were very professional, ",
+                    ],
+                ];
+                ?>
+                <div class="testimonial-slider">
+                    <?php foreach ($testimonials as $index => $testimonial) { ?>
+                        <div class="testimonial-card">
+                            <div class="row justify-content-between align-items-center">
+                                <div class="col-auto"><svg width="59" height="38" viewBox="0 0 59 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M24.5455 37.9158V19.7055H20.52L26.2707 0.153248H8.25195L0.584416 25.6478V37.9158H24.5455ZM33.1714 37.9158H57.1325V19.7055H53.107L58.8577 0.153248H40.839L33.1714 25.6478V37.9158Z" fill="#00B8B1" />
+                                    </svg>
+                                </div>
+                                <div class="col-auto fw-700 ls-3 fw-20"><?= $index + 1 . "/" . count($testimonials) ?></div>
+                            </div>
+                            <div class="py-3">
+                                <svg width="200" height="40" viewBox="0 0 200 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18.6059 2.37685C18.9377 1.52985 20.1363 1.52985 20.4681 2.37685L24.276 12.0975C24.4183 12.4606 24.7587 12.7079 25.148 12.731L35.5695 13.3487C36.4776 13.4025 36.848 14.5425 36.145 15.1198L28.0769 21.7452C27.7755 21.9927 27.6455 22.3928 27.7438 22.7702L30.3768 32.8726C30.6062 33.7528 29.6365 34.4574 28.8702 33.9671L20.0759 28.3413C19.7474 28.1311 19.3266 28.1311 18.9981 28.3413L10.2038 33.9671C9.43751 34.4574 8.46782 33.7528 8.69724 32.8726L11.3302 22.7702C11.4285 22.3928 11.2985 21.9927 10.9971 21.7452L2.929 15.1198C2.22599 14.5425 2.59638 13.4025 3.50446 13.3487L13.926 12.731C14.3153 12.7079 14.6557 12.4606 14.798 12.0975L18.6059 2.37685Z" fill="#FFB492" />
+                                    <path d="M58.6801 2.37685C59.0119 1.52985 60.2105 1.52985 60.5423 2.37685L64.3503 12.0975C64.4925 12.4606 64.8329 12.7079 65.2222 12.731L75.6438 13.3487C76.5518 13.4025 76.9222 14.5425 76.2192 15.1198L68.1511 21.7452C67.8497 21.9927 67.7197 22.3928 67.818 22.7702L70.451 32.8726C70.6804 33.7528 69.7107 34.4574 68.9444 33.9671L60.1501 28.3413C59.8216 28.1311 59.4009 28.1311 59.0723 28.3413L50.278 33.9671C49.5117 34.4574 48.542 33.7528 48.7715 32.8726L51.4044 22.7702C51.5028 22.3928 51.3727 21.9927 51.0714 21.7452L43.0032 15.1198C42.3002 14.5425 42.6706 13.4025 43.5787 13.3487L54.0002 12.731C54.3896 12.7079 54.7299 12.4606 54.8722 12.0975L58.6801 2.37685Z" fill="#FFB492" />
+                                    <path d="M98.7543 2.37685C99.0861 1.52985 100.285 1.52985 100.617 2.37685L104.424 12.0975C104.567 12.4606 104.907 12.7079 105.296 12.731L115.718 13.3487C116.626 13.4025 116.996 14.5425 116.293 15.1198L108.225 21.7452C107.924 21.9927 107.794 22.3928 107.892 22.7702L110.525 32.8726C110.755 33.7528 109.785 34.4574 109.019 33.9671L100.224 28.3413C99.8958 28.1311 99.4751 28.1311 99.1466 28.3413L90.3522 33.9671C89.5859 34.4574 88.6163 33.7528 88.8457 32.8726L91.4786 22.7702C91.577 22.3928 91.447 21.9927 91.1456 21.7452L83.0774 15.1198C82.3744 14.5425 82.7448 13.4025 83.6529 13.3487L94.0745 12.731C94.4638 12.7079 94.8041 12.4606 94.9464 12.0975L98.7543 2.37685Z" fill="#FFB492" />
+                                    <path d="M138.829 2.37685C139.16 1.52985 140.359 1.52985 140.691 2.37685L144.499 12.0975C144.641 12.4606 144.981 12.7079 145.371 12.731L155.792 13.3487C156.7 13.4025 157.071 14.5425 156.368 15.1198L148.3 21.7452C147.998 21.9927 147.868 22.3928 147.966 22.7702L150.599 32.8726C150.829 33.7528 149.859 34.4574 149.093 33.9671L140.299 28.3413C139.97 28.1311 139.549 28.1311 139.221 28.3413L130.426 33.9671C129.66 34.4574 128.69 33.7528 128.92 32.8726L131.553 22.7702C131.651 22.3928 131.521 21.9927 131.22 21.7452L123.152 15.1198C122.449 14.5425 122.819 13.4025 123.727 13.3487L134.149 12.731C134.538 12.7079 134.878 12.4606 135.021 12.0975L138.829 2.37685Z" fill="#FFB492" />
+                                    <path d="M178.903 2.37685C179.235 1.52985 180.433 1.52985 180.765 2.37685L184.573 12.0975C184.715 12.4606 185.056 12.7079 185.445 12.731L195.866 13.3487C196.775 13.4025 197.145 14.5425 196.442 15.1198L188.374 21.7452C188.072 21.9927 187.942 22.3928 188.041 22.7702L190.674 32.8726C190.903 33.7528 189.933 34.4574 189.167 33.9671L180.373 28.3413C180.044 28.1311 179.624 28.1311 179.295 28.3413L170.501 33.9671C169.734 34.4574 168.765 33.7528 168.994 32.8726L171.627 22.7702C171.725 22.3928 171.595 21.9927 171.294 21.7452L163.226 15.1198C162.523 14.5425 162.893 13.4025 163.801 13.3487L174.223 12.731C174.612 12.7079 174.953 12.4606 175.095 12.0975L178.903 2.37685Z" fill="#FFB492" />
+                                </svg>
+                            </div>
+                            <div class="fs-36 fw-700 lh-1 ls-3"><?= $testimonial['name'] ?></div>
+                            <div class="pt-2">
+                                “<?= $testimonial['comment'] ?>”
+                            </div>
+                        </div>
+                    <?php } ?>
                 </div>
             </div>
         </div>
