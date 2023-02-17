@@ -150,11 +150,12 @@ section.form-1 {
     }
 }
 
+.horizontal-line {
+    height: 2px;
+    background: $white;
+}
+
 form.main-form {
-    .horizontal-line {
-        height: 2px;
-        background: $white;
-    }
 
     input {
         background: none;
@@ -260,8 +261,12 @@ section.about-3 {
     padding: 122px 0 22px;
 
     @include media-breakpoint-up(md) {
-        background: imgUrl('about-3.png') right center;
+        padding: 120px 0 60px;
+    }
+    
+    @include media-breakpoint-up(lg) {
         padding: 180px 0;
+        background: imgUrl('about-3.png') right center;
     }
 }
 

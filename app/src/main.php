@@ -245,9 +245,9 @@
 <section class="about-3">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-lg-6">
                 <div class="fs-63 lh-1 fw-700 ls-3 text-primary">we have a foundation of care, <span class="bg-quartinary text-white">responsibility,</span> reliability &amp; honesty<span class="text-quartinary">.</span></div>
-                <div class="fs-17 text-grey py-4 py-md-6 lh-1_7">
+                <div class="fs-17 text-grey py-4 py-md-5 py-lg-6 lh-1_7">
                     <p class="pb-4">Downsizing can be a hassle, whether it's because you're moving to a smaller home or office, or because you're setting off on an adventure and need to streamline your belongings. The solution is clear - finding a secure and reliable self storage space to keep your items safe and secure for as long as you need. But the process can quickly become overwhelming with all the options available.</p>
                     <p class="pb-4">That's where Fast Storage Sydney comes in! We provide a hassle-free self storage solution, saving you the time and effort of having to transport your items to storage yourself. All you have to do is make one phone call or fill out our online form to schedule a convenient pickup time, and we'll take care of the rest.</p>
                     <p>Our professional team will arrive, load up your belongings, and securely transport them to our storage facility. You can relax knowing that your items are in good hands with Fast Storage Sydney. Say goodbye to the stress of downsizing and contact us today!</p>
@@ -263,6 +263,7 @@
             </div>
         </div>
     </div>
+    <?= renderImg('about-3.png', 'background', 'd-none d-md-block d-lg-none pt-6 w-100') ?>
     <?= renderImg('about-3-sm.png', 'lib', 'd-md-none pt-6 w-100') ?>
 </section>
 
@@ -270,8 +271,8 @@
     <div class="container">
         <div class="text-md-center text-white fs-63 fw-700 lh-1"><span class="bg-quartinary">why choose</span> fast storage?</div>
         <div class="fs-17 lh-1_7 fw-700 text-md-center py-4 py-md-6">choose fast storage for the ultimate one-stop storage solution that ensures the highest standard of care for your belongings in the sydney area.</div>
-        <div class="row gx-xl-7 gy-4">
-            <div class="col-md-4">
+        <div class="row justify-content-center gx-xl-7 gy-4">
+            <div class="col-md-6 col-lg-4">
                 <div class="why-us-card">
                     <?= renderImg('whyus-1.png', 'lib') ?>
                     <div class="pt-5 content">
@@ -281,7 +282,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6 col-lg-4">
                 <div class="why-us-card">
                     <?= renderImg('whyus-2.png', 'lib') ?>
                     <div class="pt-5 content">
@@ -291,7 +292,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6 col-lg-4">
                 <div class="why-us-card">
                     <?= renderImg('whyus-3.png', 'lib') ?>
                     <div class="pt-5 content">
@@ -307,10 +308,10 @@
 
 <section class="testimonials">
     <div class="container-fluid">
-        <div class="row justify-content-end gy-5">
-            <div class="col-md-4">
+        <div class="row justify-content-lg-end gy-5">
+            <div class="col-md-8 col-lg-4">
                 <div class="text-primary fs-63 fw-700 ls-3 lh-1">your <span class="text-white bg-quartinary">trusted</span> removalist &amp; storage services in sydney<span class="text-quartinary">.</span></div>
-                <div class="row align-items-center py-5 d-none d-md-flex">
+                <div class="row align-items-center py-5 d-none d-lg-flex">
                     <div class="col-auto"><?= renderImg('google.png', 'icons') ?></div>
                     <div class="col-auto d-flex align-items-center">
                         <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -326,7 +327,7 @@
                         <div class="fs-19 ls-3 lh-1">reviews</div>
                     </div>
                 </div>
-                <div class="row gx-3 pt-5 pt-md-0">
+                <div class="row gx-3 pt-5 pt-lg-0">
                     <div class="col-6 col-md-auto">
                         <div class="review-platform bg-primary-light px-2 py-1">
                             <div class="row align-items-center gx-2">
@@ -365,7 +366,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-lg-6">
                 <?php
                 $testimonials = [
                     [
@@ -408,8 +409,8 @@
                         </div>
                     <?php } ?>
                 </div>
-                <div class="d-flex justify-content-center d-md-none mt-n4 position-relative">
-                    <div class="row align-items-center py-2 bg-secondary gx-3">
+                <div class="d-flex justify-content-center d-lg-none mt-n4 position-relative">
+                    <div class="row align-items-center py-2 py-md-3 bg-secondary gx-3 gx-md-4">
                         <div class="col-auto"><?= renderImg('google.png', 'icons') ?></div>
                         <div class="col-auto d-flex align-items-center">
                             <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -434,12 +435,12 @@
 <section class="quick-contact">
     <div class="container">
         <div class="row gy-5">
-            <div class="col-md-5">
+            <div class="col-md-7 col-lg-5">
                 <div class="text-primary ls-3 fw-700 fs-63 lh-0_77">
                     <span class="text-secondary">contact us</span><br class="d-none d-md-block"> today to talk to the experts<span class="text-secondary">.</span>
                 </div>
             </div>
-            <div class="col-md-7">
+            <div class="col-lg-7">
                 <div class="text-primary fs-38 ls-3">email us</div>
                 <a href="mailto:<?= $admin_email ?>" class="text-decoration-none text-secondary fs-63 fw-700 ls-3" id="admin-email"><?= $admin_email ?></a>
                 <div class="pt-5"><a href="#form" class="btn btn-quartinary text-white rounded-0 px-4 px-md-5 d-inline-flex">enquire now</a></div>
@@ -448,7 +449,7 @@
     </div>
 </section>
 
-<section class="bg-quartinary py-4 d-none d-md-block">
+<section class="bg-quartinary py-4 d-none d-lg-block">
     <div class="container">
         <div class="row justify-content-center justify-content-lg-between align-items-center">
             <div class="col-auto">
@@ -474,11 +475,22 @@
     </div>
 </section>
 
+<div class="bg-primary py-4 d-lg-none">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-auto text-tertiary fw-600 fs-32 ls-3">fill out the form below</div>
+            <div class="col">
+                <div class="horizontal-line bg-tertiary"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <footer>
     <div class="floating-get-started">get started<span class="text-primary lh-1">.</span></div>
     <div class="container">
         <div class="row">
-            <div class="col-7 d-none d-md-block">
+            <div class="col-7 d-none d-lg-block">
                 <div class="fs-83 lh-1 ls-3 fw-700">payments<span class="text-primary">.</span></div>
                 <div class="pt-4"><?= renderImg('payments.png', 'icons') ?></div>
                 <div class="fs-83 lh-1 ls-3 fw-700 pt-5">socials<span class="text-primary">.</span></div>
@@ -519,9 +531,9 @@
                 <div class="pt-9 pb-4"><a href="https://aiims.com.au/" target="_blank"><?= renderImg('aiims.png', 'logo') ?></a></div>
                 <div class="fw-700">Copyright <?= date('Y') ?> <span class="text-primary px-3">/</span><?= $site ?><span class="text-primary px-3">/</span>All Rights Reserved</div>
             </div>
-            <div class="col-10 col-md-5">
+            <div class="col-10 col-lg-5">
                 <form action="./src/form" method="POST" class="main-form">
-                    <div class="row align-items-center pb-5 d-none d-md-flex">
+                    <div class="row align-items-center pb-5 d-none d-lg-flex">
                         <div class="col-auto fw-600 fs-25 ls-3 lh-1">we'll get back to you asap</div>
                         <div class="col">
                             <div class="horizontal-line"></div>
@@ -562,7 +574,7 @@
     </div>
 </footer>
 
-<div class="d-md-none">
+<div class="d-lg-none">
     <div class="bg-tertiary py-2"></div>
     <section class="footer-mobile-top">
         <div class="container">
@@ -570,7 +582,7 @@
             <div class="fs-70 lh-1 ls-3 fw-700 pt-6">payments<span class="text-tertiary">.</span></div>
             <div class="pt-4"><?= renderImg('payments.png', 'icons') ?></div>
             <div class="fs-70 lh-1 ls-3 fw-700 pt-4">socials<span class="text-tertiary">.</span></div>
-            <div class="row gx-5 pt-4">
+            <div class="row gx-md-5 pt-4">
                 <div class="col-auto">
                     <a href=""><svg width="16" height="25" viewBox="0 0 16 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M4.70907 24.9245L4.67335 14.0201H0V9.3467H4.67335V6.23113C4.67335 2.02636 7.2772 0 11.0281 0C12.8249 0 14.3691 0.133767 14.8191 0.193555V4.58778L12.2176 4.58897C10.1777 4.58897 9.78268 5.55833 9.78268 6.9808V9.3467H15.5778L14.0201 14.0201H9.78266V24.9245H4.70907Z" fill="white" />
