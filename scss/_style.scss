@@ -233,6 +233,9 @@ section.about-1 {
 
     @include media-breakpoint-up(lg) {
         padding: 184px 0 141px;
+    }
+    
+    @include media-breakpoint-up(xl) {
         background: imgUrl('about-1.png') right center;
     }
 }
@@ -259,7 +262,7 @@ section.about-2 {
             padding-bottom: 80px;
         }
 
-        @include media-breakpoint-up(lg) {
+        @include media-breakpoint-up(xl) {
             padding-top: 163px;
             padding-bottom: 163px;
         }
@@ -275,6 +278,10 @@ section.about-3 {
     }
     
     @include media-breakpoint-up(lg) {
+        padding: 180px 0 80px;
+    }
+    
+    @include media-breakpoint-up(xl) {
         padding: 180px 0;
         background: imgUrl('about-3.png') right center;
     }
@@ -355,6 +362,10 @@ section.testimonials {
 section.quick-contact {
     background: $tertiary;
     padding: 118px 0;
+
+    @include media-breakpoint-down(xl) {
+        padding: 80px 0;
+    }
 
     @include media-breakpoint-down(sm) {
         padding: 78px 0;
