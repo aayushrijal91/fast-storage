@@ -1,4 +1,4 @@
-# Landing page [Fast Storage](www.aiims.com.au)
+# Landing page [Fast Storage](https://faststoragesydney.com.au/)
 
 This is a landing page boilerplate that uses PHP scripting language
 

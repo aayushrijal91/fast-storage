@@ -3,9 +3,9 @@ include __DIR__ . '/env.php';
 
 $site = "Fast Storage";
 $phone_number = "1300 017 159";
-$admin_email = 'info@wemovegroup.com.au'; //'arijal@aiims.com.au';
-$bcc_email = "";
-$no_reply_email = 'info@website.com.au';
+$admin_email = 'arijal@aiims.com.au'; // 'info@wemovegroup.com.au'; 
+$bcc_email = "kalbassit@aiims.com.au";
+$no_reply_email = 'info@wemovegroup.com.au';
 $recaptcha_client_secret = $client_secret;
 $recaptcha_server_secret = $server_secret;
 
