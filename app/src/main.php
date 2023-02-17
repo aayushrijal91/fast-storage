@@ -57,7 +57,11 @@
                         <label class="form-check-label" for="smboxSize_1">
                             <div class="d-flex gap-2 align-items-end">
                                 <div class="horizontal-line-sm"></div>
-                                <div>suitable for<br> <span class="fw-700">a few items</span></div>
+                                <div class="pre">suitable for<br> <span class="fw-700">a few items</span></div>
+                                <div class="post text-primary">
+                                    <div class="text-primary fs-28 fw-700">the solo box</div>
+                                    <div class="fs-14">suitable for <span class="fw-700">a few items</span></div>
+                                </div>
                                 <svg width="43" height="19" viewBox="0 0 43 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M-7.51318e-07 1.81184L8.36937 9.5L-7.91982e-08 17.1882L1.97238 19L11.3279 10.4059C11.5894 10.1656 11.7364 9.83977 11.7364 9.5C11.7364 9.16023 11.5894 8.83437 11.3279 8.59408L1.97238 -8.62156e-08L-7.51318e-07 1.81184Z" fill="#58D1C3" />
                                     <path d="M15.3437 1.81184L23.7131 9.5L15.3437 17.1882L17.3161 19L26.6717 10.4059C26.9332 10.1656 27.0801 9.83977 27.0801 9.5C27.0801 9.16023 26.9332 8.83437 26.6717 8.59408L17.3161 -8.62156e-08L15.3437 1.81184Z" fill="#58D1C3" />
@@ -75,7 +79,11 @@
                         <label class="form-check-label" for="smboxSize_2">
                             <div class="d-flex gap-2 align-items-end">
                                 <div class="horizontal-line-sm"></div>
-                                <div>suitable for <span class="fw-700">1<br> bedroom home</span></div>
+                                <div class="pre">suitable for <span class="fw-700">1<br> bedroom home</span></div>
+                                <div class="post text-primary">
+                                    <div class="text-primary fs-28 fw-700">the solo box</div>
+                                    <div class="fs-14">suitable for <span class="fw-700">1 bedroom home</span></div>
+                                </div>
                                 <svg width="43" height="19" viewBox="0 0 43 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M-7.51318e-07 1.81184L8.36937 9.5L-7.91982e-08 17.1882L1.97238 19L11.3279 10.4059C11.5894 10.1656 11.7364 9.83977 11.7364 9.5C11.7364 9.16023 11.5894 8.83437 11.3279 8.59408L1.97238 -8.62156e-08L-7.51318e-07 1.81184Z" fill="#58D1C3" />
                                     <path d="M15.3437 1.81184L23.7131 9.5L15.3437 17.1882L17.3161 19L26.6717 10.4059C26.9332 10.1656 27.0801 9.83977 27.0801 9.5C27.0801 9.16023 26.9332 8.83437 26.6717 8.59408L17.3161 -8.62156e-08L15.3437 1.81184Z" fill="#58D1C3" />
@@ -93,7 +101,11 @@
                         <label class="form-check-label" for="smboxSize_3">
                             <div class="d-flex gap-2 align-items-end">
                                 <div class="horizontal-line-sm"></div>
-                                <div>suitable for <span class="fw-700">2<br> bedroom home</span></div>
+                                <div class="pre">suitable for <span class="fw-700">2<br> bedroom home</span></div>
+                                <div class="post text-primary">
+                                    <div class="text-primary fs-28 fw-700">the duo box</div>
+                                    <div class="fs-14">suitable for <span class="fw-700">2 bedroom home</span></div>
+                                </div>
                                 <svg width="43" height="19" viewBox="0 0 43 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M-7.51318e-07 1.81184L8.36937 9.5L-7.91982e-08 17.1882L1.97238 19L11.3279 10.4059C11.5894 10.1656 11.7364 9.83977 11.7364 9.5C11.7364 9.16023 11.5894 8.83437 11.3279 8.59408L1.97238 -8.62156e-08L-7.51318e-07 1.81184Z" fill="#58D1C3" />
                                     <path d="M15.3437 1.81184L23.7131 9.5L15.3437 17.1882L17.3161 19L26.6717 10.4059C26.9332 10.1656 27.0801 9.83977 27.0801 9.5C27.0801 9.16023 26.9332 8.83437 26.6717 8.59408L17.3161 -8.62156e-08L15.3437 1.81184Z" fill="#58D1C3" />
@@ -111,7 +123,11 @@
                         <label class="form-check-label" for="smboxSize_4">
                             <div class="d-flex gap-2 align-items-end">
                                 <div class="horizontal-line-sm"></div>
-                                <div>suitable for <span class="fw-700">2-3<br> bedroom home</span></div>
+                                <div class="pre">suitable for <span class="fw-700">2-3<br> bedroom home</span></div>
+                                <div class="post text-primary">
+                                    <div class="text-primary fs-28 fw-700">the tri box</div>
+                                    <div class="fs-14">suitable for <span class="fw-700">2-3 bedroom home</span></div>
+                                </div>
                                 <svg width="43" height="19" viewBox="0 0 43 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M-7.51318e-07 1.81184L8.36937 9.5L-7.91982e-08 17.1882L1.97238 19L11.3279 10.4059C11.5894 10.1656 11.7364 9.83977 11.7364 9.5C11.7364 9.16023 11.5894 8.83437 11.3279 8.59408L1.97238 -8.62156e-08L-7.51318e-07 1.81184Z" fill="#58D1C3" />
                                     <path d="M15.3437 1.81184L23.7131 9.5L15.3437 17.1882L17.3161 19L26.6717 10.4059C26.9332 10.1656 27.0801 9.83977 27.0801 9.5C27.0801 9.16023 26.9332 8.83437 26.6717 8.59408L17.3161 -8.62156e-08L15.3437 1.81184Z" fill="#58D1C3" />
@@ -129,7 +145,11 @@
                         <label class="form-check-label" for="smboxSize_5">
                             <div class="d-flex gap-2 align-items-end">
                                 <div class="horizontal-line-sm"></div>
-                                <div>suitable for <span class="fw-700">3-4<br> bedroom home</span></div>
+                                <div class="pre">suitable for <span class="fw-700">3-4<br> bedroom home</span></div>
+                                <div class="post text-primary">
+                                    <div class="text-primary fs-28 fw-700">the family vault</div>
+                                    <div class="fs-14">suitable for <span class="fw-700">3-4 bedroom home</span></div>
+                                </div>
                                 <svg width="43" height="19" viewBox="0 0 43 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M-7.51318e-07 1.81184L8.36937 9.5L-7.91982e-08 17.1882L1.97238 19L11.3279 10.4059C11.5894 10.1656 11.7364 9.83977 11.7364 9.5C11.7364 9.16023 11.5894 8.83437 11.3279 8.59408L1.97238 -8.62156e-08L-7.51318e-07 1.81184Z" fill="#58D1C3" />
                                     <path d="M15.3437 1.81184L23.7131 9.5L15.3437 17.1882L17.3161 19L26.6717 10.4059C26.9332 10.1656 27.0801 9.83977 27.0801 9.5C27.0801 9.16023 26.9332 8.83437 26.6717 8.59408L17.3161 -8.62156e-08L15.3437 1.81184Z" fill="#58D1C3" />
@@ -147,7 +167,11 @@
                         <label class="form-check-label" for="smboxSize_6">
                             <div class="d-flex gap-2 align-items-end">
                                 <div class="horizontal-line-sm"></div>
-                                <div>suitable for<br> <span class="fw-700">large home or office</span></div>
+                                <div class="pre">suitable for<br> <span class="fw-700">large home or office</span></div>
+                                <div class="post text-primary">
+                                    <div class="text-primary fs-28 fw-700">the mega vault</div>
+                                    <div class="fs-14">suitable for <span class="fw-700">large home or office</span></div>
+                                </div>
                                 <svg width="43" height="19" viewBox="0 0 43 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M-7.51318e-07 1.81184L8.36937 9.5L-7.91982e-08 17.1882L1.97238 19L11.3279 10.4059C11.5894 10.1656 11.7364 9.83977 11.7364 9.5C11.7364 9.16023 11.5894 8.83437 11.3279 8.59408L1.97238 -8.62156e-08L-7.51318e-07 1.81184Z" fill="#58D1C3" />
                                     <path d="M15.3437 1.81184L23.7131 9.5L15.3437 17.1882L17.3161 19L26.6717 10.4059C26.9332 10.1656 27.0801 9.83977 27.0801 9.5C27.0801 9.16023 26.9332 8.83437 26.6717 8.59408L17.3161 -8.62156e-08L15.3437 1.81184Z" fill="#58D1C3" />

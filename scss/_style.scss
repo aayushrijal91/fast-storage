@@ -84,6 +84,14 @@ section.size {
                 transition: 0.2s all;
                 opacity: 1;
             }
+
+            .pre {
+                transition: 0.2s all;
+            }
+
+            .post {
+                display: none;
+            }
         }
 
         .price-target {
@@ -114,6 +122,16 @@ section.size {
             svg {
                 transform: translateX(-70px);
                 opacity: 0;
+            }
+
+            .pre {
+                display: none;
+                transition: 0.2s all;
+            }
+
+            .post {
+                display: block;
+                transition: 0.2s all;
             }
         }
     }
