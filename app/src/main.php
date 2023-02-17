@@ -42,8 +42,8 @@
         <div class="text-primary fs-63 fw-700 ls-3 lh-1">find the <span class="bg-quartinary text-white">right size</span> for your storage solution<span class="text-quartinary">.</span></div>
         <div class="ls-3 pt-4 pb-9 text-grey fw-500">select the size below that currently matches your own property the best to find out which size is right for you.</div>
 
-        <div class="row justify-content-end d-md-none radio-toolbar-sm">
-            <div class="col-1">
+        <div class="row justify-content-end d-lg-none radio-toolbar-sm">
+            <div class="col-auto">
                 <div class="vertical-bar"></div>
             </div>
             <div class="col-8">
@@ -184,7 +184,7 @@
             </div>
         </div>
 
-        <div class="row radio-toolbar g-3 gx-md-2 position-relative d-none d-md-flex">
+        <div class="row radio-toolbar g-3 gx-md-2 position-relative d-none d-lg-flex">
             <div class="bar"></div>
             <div class="col-md-4 col-lg">
                 <input class="form-check-input form-control box-size" type="radio" name="boxSize" value="1" id="boxSize_1" checked>
@@ -272,9 +272,9 @@
             </div>
         </div>
 
-        <div class="text-center fs-25 ls-3 text-grey row justify-content-center align-items-center gx-0 d-none d-md-flex">
+        <div class="text-center fs-25 ls-3 text-grey row justify-content-center align-items-center gx-0 d-none d-lg-flex">
             <div class="col-auto">you've chosen...</div>
-            <div class="text-primary fs-60 fw-700 col-6 lh-1">
+            <div class="text-primary fs-60 fw-700 col-lg-7 col-xl-6 lh-1">
                 <div class="price-box">
                     <div>the mini box - 119</div>
                     <div>the solo box - 120</div>

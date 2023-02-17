@@ -100,6 +100,10 @@ section.size {
             top: 7px;
             opacity: 0;
             transition: 0.2s all;
+
+            @include media-breakpoint-up(md) {
+                left: -150px;
+            }
         }
 
         input[type="radio"]:checked+label {
