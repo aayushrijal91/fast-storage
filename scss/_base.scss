@@ -19,7 +19,8 @@ body {
     font-weight: 700;
 
     @include media-breakpoint-down(sm) {
-        font-size: 0.875rem;
+        font-size: 1.25rem;
+        height: 57px;
     }
 
     &:focus {

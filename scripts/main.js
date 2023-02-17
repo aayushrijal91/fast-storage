@@ -29,7 +29,14 @@ $(".testimonial-slider").slick({
     slidesToScroll: 1,
     arrows: false,
     centerMode: true,
-    centerPadding: "100px"
+    centerPadding: "100px",
+    responsive: [{
+        breakpoint: 540,
+        settings: {
+            slidesToShow: 1,
+            centerMode: false,
+        }
+    }]
 });
 
 let priceBox = $(".price-box").slick({

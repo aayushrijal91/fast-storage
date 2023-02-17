@@ -1,19 +1,19 @@
 <header>
     <div class="container">
         <div class="row justify-content-center justify-content-lg-between align-items-center">
-            <div class="col-auto">
+            <div class="col-auto d-none d-md-block">
                 <a href="./">
                     <?= renderImg("logo.png", "logo") ?>
                 </a>
             </div>
-            <div class="col-auto">
+            <div class="col-md-auto">
                 <div class="row justify-content-center justify-content-lg-end align-items-center">
-                    <div class="col-12 col-md-auto">
+                    <div class="col-6 col-md-auto">
                         <a href="tel:<?= $phone_number ?>" class="btn border-white border rounded-0 text-white py-3 px-md-5">
                             <?= $phone_number ?>
                         </a>
                     </div>
-                    <div class="col-12 col-md-auto">
+                    <div class="col-6 col-md-auto">
                         <a href="#form" class="btn border-white border rounded-0 text-white py-3 px-md-5">
                             enquire now
                         </a>
@@ -26,11 +26,12 @@
 
 <section class="banner">
     <div class="container">
+        <?= renderImg('logo.png', 'logo', 'd-md-none pb-5') ?>
         <h1 class="ls-3 fs-108 fw-700 lh-1">
             <span class="bg-quartinary">the quick</span>
             <div>&amp; secure solution...</div>
         </h1>
-        <div class="ls-3 fw-700 fs-60 pt-4">for your storage needs in sydney<span class="text-quartinary">.</span></div>
+        <div class="ls-3 fw-700 fs-60 pt-3 pt-md-4 lh-1">for your storage<br class="d-md-none"> needs in sydney<span class="text-quartinary">.</span></div>
     </div>
 </section>
 
@@ -38,7 +39,7 @@
 
 <section class="size" id="prices">
     <div class="container">
-        <div class="text-primary fs-63 fw-700 ls-3">find the <span class="bg-quartinary text-white">right size</span> for your storage solution<span class="text-quartinary">.</span></div>
+        <div class="text-primary fs-63 fw-700 ls-3 lh-1">find the <span class="bg-quartinary text-white">right size</span> for your storage solution<span class="text-quartinary">.</span></div>
         <div class="ls-3 pt-4 pb-9 text-grey fw-500">select the size below that currently matches your own property the best to find out which size is right for you.</div>
 
         <div class="row radio-toolbar g-3 gx-md-2 position-relative">
@@ -145,27 +146,29 @@
         </div>
 
         <div class="text-center pt-6">
-            <a href="#form" class="text-white btn btn-quartinary d-inline-flex rounded-0 fs-35 px-5">enquire now</a>
+            <a href="#form" class="slider-enquiry-btn text-white btn btn-quartinary d-inline-flex rounded-0 fs-35 px-4 px-md-5">enquire now</a>
         </div>
     </div>
 </section>
 
 <section class="form-1" id="form">
+    <div class="floating-get-started">get started<span class="text-primary lh-1">.</span></div>
     <div class="container">
         <div class="row justify-content-between">
-            <div class="col-lg-6">
+            <div class="col-lg-6 d-none d-md-block">
                 <div class="text-light ls-3 fw-700 fs-63 lh-1 pb-7">get started<br> & enquire today<span class="text-primary">.</span></div>
                 <?= renderImg('cardboard-box.png', 'lib', 'w-100') ?>
             </div>
-            <div class="col-lg-6 col-xl-5">
+            <div class="col-10 col-lg-6 col-xl-5">
                 <form action="./src/form" method="POST" class="main-form">
-                    <div class="row align-items-center pb-5">
+                    <div class="row align-items-center pb-5 d-none d-md-flex">
                         <div class="col-auto fw-600 fs-25 ls-3 lh-1">we'll get back to you asap</div>
                         <div class="col">
                             <div class="horizontal-line"></div>
                         </div>
                     </div>
-                    <div class="row gy-5">
+                    <div class="fs-36 fw-600 ls-3 lh-1 pb-5 d-md-none">enquire with<br> us now</div>
+                    <div class="row gy-4 gy-md-5">
                         <div class="col-6">
                             <input type="text" class="form-control" name="name" placeholder="full name" required>
                         </div>
@@ -186,9 +189,9 @@
                             <textarea class="form-control" name="enquiry" id="enquiry" placeholder="write your response here..." rows="5"></textarea>
                         </div>
                         <div class="col-12">
-                            <div class="row">
-                                <div class="col-6 fw-500 lh-1">all information provided will be kept 100% private &amp; secure</div>
-                                <div class="col-6">
+                            <div class="row gy-4">
+                                <div class="col-md-6 fw-500 lh-1">all information provided will be kept 100% private &amp; secure</div>
+                                <div class="col-md-6">
                                     <button type="submit" class="btn btn-primary w-100 rounded-0 text-white fs-25">get quote now</button>
                                 </div>
                             </div>
@@ -201,6 +204,7 @@
 </section>
 
 <section class="about-1">
+    <?= renderImg('about-1-sm.png', 'lib', 'w-100 pb-4 d-md-none') ?>
     <div class="container">
         <div class="row gx-xl-10">
             <div class="col-xl-7">
@@ -223,8 +227,8 @@
         <div class="row justify-content-center">
             <div class="col-xl-11">
                 <div class="row gx-xl-7">
-                    <div class="col-6 position-relative"><?= renderImg('boxedtrolley.png', 'lib', 'boxedTrolley') ?></div>
-                    <div class="col-5 content-box">
+                    <div class="col-6 position-relative d-none d-md-block"><?= renderImg('boxedtrolley.png', 'lib', 'boxedTrolley') ?></div>
+                    <div class="col-md-5 content-box">
                         <div class="fs-63 lh-1 fw-700 ls-3">we come to you <br><span class="bg-quartinary">sydney wide</span> with storage units<span class="text-quartinary">.</span></div>
                         <div class="fs-17 lh-1_7 pt-5">
                             <p class="mb-4">No matter where you are in Sydney, we've got you covered. Our mobile storage units can be delivered anywhere in the city, with small trucks that can fit down narrow streets or larger trucks for bigger jobs. Whether you're in the Western Sydney, Eastern Suburbs, North Shore, or anywhere else in the greater Sydney Metropolitan area, we'll bring your storage solution right to your door.</p>
@@ -235,63 +239,65 @@
             </div>
         </div>
     </div>
+    <?= renderImg('boxed-trolley-sm.png', 'lib', 'd-md-none mb-n5') ?>
 </section>
 
 <section class="about-3">
     <div class="container">
         <div class="row">
-            <div class="col-6">
+            <div class="col-md-6">
                 <div class="fs-63 lh-1 fw-700 ls-3 text-primary">we have a foundation of care, <span class="bg-quartinary text-white">responsibility,</span> reliability &amp; honesty<span class="text-quartinary">.</span></div>
-                <div class="fs-17 text-grey py-6 lh-1_7">
+                <div class="fs-17 text-grey py-4 py-md-6 lh-1_7">
                     <p class="pb-4">Downsizing can be a hassle, whether it's because you're moving to a smaller home or office, or because you're setting off on an adventure and need to streamline your belongings. The solution is clear - finding a secure and reliable self storage space to keep your items safe and secure for as long as you need. But the process can quickly become overwhelming with all the options available.</p>
                     <p class="pb-4">That's where Fast Storage Sydney comes in! We provide a hassle-free self storage solution, saving you the time and effort of having to transport your items to storage yourself. All you have to do is make one phone call or fill out our online form to schedule a convenient pickup time, and we'll take care of the rest.</p>
                     <p>Our professional team will arrive, load up your belongings, and securely transport them to our storage facility. You can relax knowing that your items are in good hands with Fast Storage Sydney. Say goodbye to the stress of downsizing and contact us today!</p>
                 </div>
-                <div class="row">
-                    <div class="col-auto">
-                        <a href="#form" class="btn btn-quartinary text-white rounded-0 px-5">enquire now</a>
+                <div class="row gx-3 gx-md-4">
+                    <div class="col-6 col-md-auto">
+                        <a href="#form" class="btn btn-quartinary text-white rounded-0 px-3 px-md-5">enquire now</a>
                     </div>
-                    <div class="col-auto">
-                        <a href="tel:<?= $phone_number ?>" class="btn btn-primary text-white rounded-0 px-5"><?= $phone_number ?></a>
+                    <div class="col-6 col-md-auto">
+                        <a href="tel:<?= $phone_number ?>" class="btn btn-primary text-white rounded-0 px-3 px-md-5"><?= $phone_number ?></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <?= renderImg('about-3-sm.png', 'lib', 'd-md-none pt-6 w-100') ?>
 </section>
 
 <section class="why-us">
     <div class="container">
-        <div class="text-center text-white fs-63 fw-700 lh-1"><span class="bg-quartinary">why choose</span> fast storage?</div>
-        <div class="fs-17 lh-1_7 fw-700 text-center py-6">choose fast storage for the ultimate one-stop storage solution that ensures the highest standard of care for your belongings in the sydney area.</div>
-        <div class="row gx-xl-7">
-            <div class="col-4">
+        <div class="text-md-center text-white fs-63 fw-700 lh-1"><span class="bg-quartinary">why choose</span> fast storage?</div>
+        <div class="fs-17 lh-1_7 fw-700 text-md-center py-4 py-md-6">choose fast storage for the ultimate one-stop storage solution that ensures the highest standard of care for your belongings in the sydney area.</div>
+        <div class="row gx-xl-7 gy-4">
+            <div class="col-md-4">
                 <div class="why-us-card">
                     <?= renderImg('whyus-1.png', 'lib') ?>
                     <div class="pt-5 content">
                         <div class="fs-35 fw-900 ls-3 lh-1">24/7 Security on all Storage Units</div>
                         <div class="py-3 lh-1_7 text-lowercase">Our StorageBox units offer a <strong>high-quality, responsible, and reliable end-to-end</strong> storage service that starts with our professional removalists who will load your belongings into your storage unit <strong>with your supervision.</strong></div>
-                        <div><a href="#prices" class="btn btn-quartinary text-white rounded-0 px-5 d-inline-flex">see prices</a></div>
+                        <div class="d-none d-md-block"><a href="#prices" class="btn btn-quartinary text-white rounded-0 px-5 d-inline-flex">see prices</a></div>
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-md-4">
                 <div class="why-us-card">
                     <?= renderImg('whyus-2.png', 'lib') ?>
                     <div class="pt-5 content">
                         <div class="fs-35 fw-900 ls-3 lh-1">2-in-1 removalist & storage Team</div>
                         <div class="py-3 lh-1_7 text-lowercase">At fast Storage, we believe in providing a <strong>comprehensive storage solution</strong> that takes care of all your storage needs. Our mission is to be your <strong>one point of contact for everything</strong> related to storage.</div>
-                        <div><a href="tel: <?= $phone_number ?>" class="btn btn-quartinary text-white rounded-0 px-5 d-inline-flex"><?= $phone_number ?></a></div>
+                        <div class="d-none d-md-block"><a href="tel: <?= $phone_number ?>" class="btn btn-quartinary text-white rounded-0 px-5 d-inline-flex"><?= $phone_number ?></a></div>
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-md-4">
                 <div class="why-us-card">
                     <?= renderImg('whyus-3.png', 'lib') ?>
                     <div class="pt-5 content">
                         <div class="fs-35 fw-900 ls-3 lh-1">Storage Insurance Available</div>
                         <div class="py-3 lh-1_7">We then transport and store your items at our secure, monitored storage facilities, and even offer the option to add storage insurance for peace of mind.</div>
-                        <div><a href="#form" class="btn btn-quartinary text-white rounded-0 px-5 d-inline-flex">enquire now</a></div>
+                        <div class="d-none d-md-block"><a href="#form" class="btn btn-quartinary text-white rounded-0 px-5 d-inline-flex">enquire now</a></div>
                     </div>
                 </div>
             </div>
@@ -301,8 +307,8 @@
 
 <section class="testimonials">
     <div class="container-fluid">
-        <div class="row justify-content-end">
-            <div class="col-4">
+        <div class="row justify-content-end gy-5">
+            <div class="col-md-4">
                 <div class="text-primary fs-63 fw-700 ls-3 lh-1">your <span class="text-white bg-quartinary">trusted</span> removalist &amp; storage services in sydney<span class="text-quartinary">.</span></div>
                 <div class="row align-items-center py-5">
                     <div class="col-auto"><?= renderImg('google.png', 'icons') ?></div>
@@ -321,10 +327,10 @@
                     </div>
                 </div>
                 <div class="row gx-3">
-                    <div class="col-auto">
+                    <div class="col-6 col-md-auto">
                         <div class="review-platform bg-primary-light px-2 py-1">
                             <div class="row align-items-center gx-2">
-                                <div class="col-auto"><?= renderImg('truelocal.png', 'icons') ?></div>
+                                <div class="col col-md-auto"><?= renderImg('truelocal.png', 'icons') ?></div>
                                 <div class="col-auto">
                                     <div class="vertical-line-sm"></div>
                                 </div>
@@ -339,10 +345,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-auto">
+                    <div class="col-6 col-md-auto">
                         <div class="review-platform bg-quartinary px-2 py-1">
                             <div class="row align-items-center gx-2">
-                                <div class="col-auto"><?= renderImg('yellowpages.png', 'icons') ?></div>
+                                <div class="col col-md-auto"><?= renderImg('yellowpages.png', 'icons') ?></div>
                                 <div class="col-auto">
                                     <div class="vertical-line-sm"></div>
                                 </div>
@@ -359,7 +365,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-md-6">
                 <?php
                 $testimonials = [
                     [
@@ -367,12 +373,12 @@
                         "comment" => "...the men were very professional, courteous and respectful during the whole process and regularly checked in with me to make sure I was happy or to let me know when they found items already damaged before they packed them. They were careful with how they stacked the boxes and very thorough, didn’t miss a thing. A really great service from a great team of men and would definitely use again!",
                     ],
                     [
-                        "name" => "Aayush Rijal",
-                        "comment" => "...the men were very professional, ",
+                        "name" => "Jesus Castro",
+                        "comment" => "fast storage’s help last week was amazing. Amazing lads! They wrap and manage my furniture professionally. Even though I made a last-minute reservation, moving a large house wasn't easy, but they were competent and strong. I trust these boys to move. Trustworthy! I endorse them.",
                     ],
                     [
-                        "name" => "Aayush Rijal",
-                        "comment" => "...the men were very professional, ",
+                        "name" => "Luz Zoquier",
+                        "comment" => "We were given a quote that was incredible, almost too good to be true; nonetheless, it was accurate. We picked up our belongings from storage in Sydney, which were intended for a one-bedroom apartment, and then delivered them to Melbourne the next day. Our movers, Fast Removalists, were simply incredible to work with; they were extremely helpful and stayed in contact with us throughout the 48-hour period. Would definitely recommend to others. picked up and dropped off without a hitch.",
                     ],
                 ];
                 ?>
@@ -409,22 +415,22 @@
 
 <section class="quick-contact">
     <div class="container">
-        <div class="row">
-            <div class="col-5">
+        <div class="row gy-5">
+            <div class="col-md-5">
                 <div class="text-primary ls-3 fw-700 fs-63 lh-0_77">
-                    <div class="text-secondary">contact us</div> today to talk to the experts<span class="text-secondary">.</span>
+                    <span class="text-secondary">contact us</span><br class="d-none d-md-block"> today to talk to the experts<span class="text-secondary">.</span>
                 </div>
             </div>
-            <div class="col-7">
+            <div class="col-md-7">
                 <div class="text-primary fs-38 ls-3">email us</div>
                 <div class="text-secondary fs-63 fw-700 ls-3" id="admin-email"><?= $admin_email ?></div>
-                <div class="pt-5"><a href="#form" class="btn btn-quartinary text-white rounded-0 px-5 d-inline-flex">enquire now</a></div>
+                <div class="pt-5"><a href="#form" class="btn btn-quartinary text-white rounded-0 px-4 px-md-5 d-inline-flex">enquire now</a></div>
             </div>
         </div>
     </div>
 </section>
 
-<section class="bg-quartinary py-4">
+<section class="bg-quartinary py-4 d-none d-md-block">
     <div class="container">
         <div class="row justify-content-center justify-content-lg-between align-items-center">
             <div class="col-auto">
@@ -451,9 +457,10 @@
 </section>
 
 <footer>
+    <div class="floating-get-started">get started<span class="text-primary lh-1">.</span></div>
     <div class="container">
         <div class="row">
-            <div class="col-7">
+            <div class="col-7 d-none d-md-block">
                 <div class="fs-83 lh-1 ls-3 fw-700">payments<span class="text-primary">.</span></div>
                 <div class="pt-4"><?= renderImg('payments.png', 'icons') ?></div>
                 <div class="fs-83 lh-1 ls-3 fw-700 pt-5">socials<span class="text-primary">.</span></div>
@@ -494,9 +501,9 @@
                 <div class="pt-9 pb-4"><a href="https://aiims.com.au/" target="_blank"><?= renderImg('aiims.png', 'logo') ?></a></div>
                 <div class="fw-700">Copyright <?= date('Y') ?> <span class="text-primary px-3">/</span><?= $site ?><span class="text-primary px-3">/</span>All Rights Reserved</div>
             </div>
-            <div class="col-5">
+            <div class="col-10 col-md-5">
                 <form action="./src/form" method="POST" class="main-form">
-                    <div class="row align-items-center pb-5">
+                    <div class="row align-items-center pb-5 d-none d-md-flex">
                         <div class="col-auto fw-600 fs-25 ls-3 lh-1">we'll get back to you asap</div>
                         <div class="col">
                             <div class="horizontal-line"></div>
@@ -523,9 +530,9 @@
                             <textarea class="form-control" name="enquiry" id="enquiry" placeholder="write your response here..." rows="5"></textarea>
                         </div>
                         <div class="col-12">
-                            <div class="row">
-                                <div class="col-6 fw-500 lh-1">all information provided will be kept 100% private &amp; secure</div>
-                                <div class="col-6">
+                            <div class="row gy-4">
+                                <div class="col-md-6 fw-500 lh-1">all information provided will be kept 100% private &amp; secure</div>
+                                <div class="col-md-6">
                                     <button type="submit" class="btn btn-primary w-100 rounded-0 text-white fs-25">get quote now</button>
                                 </div>
                             </div>
@@ -536,3 +543,56 @@
         </div>
     </div>
 </footer>
+
+<div class="d-md-none">
+    <div class="bg-tertiary py-2"></div>
+    <section class="footer-mobile-top">
+        <div class="container">
+            <a href="./"><?= renderImg("footer-logo.png", 'logo') ?></a>
+            <div class="fs-70 lh-1 ls-3 fw-700 pt-6">payments<span class="text-tertiary">.</span></div>
+            <div class="pt-4"><?= renderImg('payments.png', 'icons') ?></div>
+            <div class="fs-70 lh-1 ls-3 fw-700 pt-4">socials<span class="text-tertiary">.</span></div>
+            <div class="row gx-5 pt-4">
+                <div class="col-auto">
+                    <a href=""><svg width="16" height="25" viewBox="0 0 16 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.70907 24.9245L4.67335 14.0201H0V9.3467H4.67335V6.23113C4.67335 2.02636 7.2772 0 11.0281 0C12.8249 0 14.3691 0.133767 14.8191 0.193555V4.58778L12.2176 4.58897C10.1777 4.58897 9.78268 5.55833 9.78268 6.9808V9.3467H15.5778L14.0201 14.0201H9.78266V24.9245H4.70907Z" fill="white" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="col-auto">
+                    <a href=""><svg width="26" height="19" viewBox="0 0 26 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24.7067 4.47648C24.3952 2.45136 23.4605 1.04936 21.2796 0.737799C17.8525 0.114685 12.556 0.114685 12.556 0.114685C12.556 0.114685 7.25955 0.114685 3.83243 0.737799C1.65153 1.04936 0.561085 2.45136 0.405307 4.47648C0.09375 6.5016 0.09375 9.46138 0.09375 9.46138C0.09375 9.46138 0.09375 12.4212 0.405307 14.4463C0.716863 16.4714 1.65153 17.8734 3.83243 18.185C7.25955 18.8081 12.556 18.8081 12.556 18.8081C12.556 18.8081 17.8525 18.8081 21.2796 18.185C23.4605 17.7176 24.3952 16.4714 24.7067 14.4463C25.0183 12.4212 25.0183 9.46138 25.0183 9.46138C25.0183 9.46138 25.0183 6.5016 24.7067 4.47648ZM9.44045 14.1347V4.78803L17.2294 9.46138L9.44045 14.1347Z" fill="white" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="col-auto">
+                    <a href=""><svg width="26" height="25" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.7845 7.55837C20.6104 7.55837 21.28 6.88882 21.28 6.06289C21.28 5.23697 20.6104 4.56742 19.7845 4.56742C18.9586 4.56742 18.289 5.23697 18.289 6.06289C18.289 6.88882 18.9586 7.55837 19.7845 7.55837Z" fill="white" />
+                            <path d="M13.3275 18.6934C9.89103 18.6934 7.09637 15.8987 7.09637 12.4623C7.09637 9.0258 9.89103 6.23113 13.3275 6.23113C16.764 6.23113 19.5586 9.0258 19.5586 12.4623C19.5586 15.8987 16.764 18.6934 13.3275 18.6934ZM13.3275 9.3467C11.6093 9.3467 10.2119 10.744 10.2119 12.4623C10.2119 14.1805 11.6093 15.5778 13.3275 15.5778C15.0457 15.5778 16.4431 14.1805 16.4431 12.4623C16.4431 10.744 15.0457 9.3467 13.3275 9.3467Z" fill="white" />
+                            <path d="M19.5586 24.9245H7.09637C3.89357 24.9245 0.865234 21.8962 0.865234 18.6934V6.23113C0.865234 3.02833 3.89357 0 7.09637 0H19.5586C22.7614 0 25.7898 3.02833 25.7898 6.23113V18.6934C25.7898 21.8962 22.7614 24.9245 19.5586 24.9245ZM7.09637 3.11557C5.63984 3.11557 3.9808 4.77461 3.9808 6.23113V18.6934C3.9808 20.178 5.6118 21.809 7.09637 21.809H19.5586C21.0152 21.809 22.6742 20.1499 22.6742 18.6934V6.23113C22.6742 4.77461 21.0152 3.11557 19.5586 3.11557H7.09637Z" fill="white" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="col-auto">
+                    <a href=""><svg width="26" height="21" viewBox="0 0 26 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M25.5613 2.67322C24.6266 3.14056 23.6919 3.29634 22.6015 3.45211C23.6919 2.829 24.4708 1.89433 24.7824 0.648105C23.8477 1.27122 22.7572 1.58277 21.511 1.89433C20.5763 0.959661 19.1743 0.336548 17.7723 0.336548C15.1241 0.336548 12.7874 2.67322 12.7874 5.47723C12.7874 5.94457 12.7874 6.25612 12.9432 6.56768C8.73719 6.4119 4.84273 4.38678 2.35028 1.27122C1.88295 2.05011 1.72717 2.829 1.72717 3.91945C1.72717 5.63301 2.66184 7.19079 4.06384 8.12546C3.28495 8.12546 2.50606 7.81391 1.72717 7.50235C1.72717 9.9948 3.44073 12.0199 5.7774 12.4873C5.31007 12.643 4.84273 12.643 4.3754 12.643C4.06384 12.643 3.75229 12.643 3.44073 12.4873C4.06384 14.5124 5.93318 16.0702 8.26986 16.0702C6.5563 17.4722 4.3754 18.2511 1.88295 18.2511C1.41561 18.2511 1.10405 18.2511 0.636719 18.2511C2.97339 19.6531 5.62163 20.5877 8.42564 20.5877C17.7723 20.5877 22.913 12.7988 22.913 6.10035C22.913 5.94457 22.913 5.63301 22.913 5.47723C24.0035 4.69834 24.9381 3.76367 25.5613 2.67322Z" fill="white" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="col-auto">
+                    <a href=""><svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.7055 0C5.94307 0 0.410156 5.53291 0.410156 12.2954C0.410156 17.5209 3.63769 21.978 8.24845 23.6686C8.09476 22.7464 8.09476 21.2095 8.24845 20.1337C8.40214 19.2115 9.63168 13.986 9.63168 13.986C9.63168 13.986 9.32429 13.3712 9.32429 12.2954C9.32429 10.6047 10.4001 9.22152 11.6297 9.22152C12.7055 9.22152 13.1666 9.98998 13.1666 10.9121C13.1666 11.988 12.5518 13.5249 12.0907 15.0618C11.7834 16.2914 12.7055 17.2135 13.9351 17.2135C16.0867 17.2135 17.7774 14.9081 17.7774 11.5269C17.7774 8.60675 15.6257 6.45506 12.7055 6.45506C9.1706 6.45506 7.1726 9.06783 7.1726 11.8343C7.1726 12.9101 7.63368 13.986 8.09476 14.6007C8.09476 14.9081 8.09476 15.0618 8.09476 15.2155C7.94106 15.6766 7.78737 16.445 7.78737 16.5987C7.78737 16.7524 7.63368 16.9061 7.3263 16.7524C5.78938 15.984 4.86722 13.8323 4.86722 11.988C4.86722 8.14568 7.63368 4.61076 13.0129 4.61076C17.3163 4.61076 20.5438 7.6846 20.5438 11.6806C20.5438 15.984 17.931 19.3652 14.0887 19.3652C12.8592 19.3652 11.6297 18.7504 11.3223 17.982C11.3223 17.982 10.7075 20.2873 10.5538 20.9021C10.2464 21.978 9.47798 23.3612 9.01691 24.1296C10.2464 24.437 11.476 24.5907 12.7055 24.5907C19.468 24.5907 25.0009 19.0578 25.0009 12.2954C25.0009 5.53291 19.468 0 12.7055 0Z" fill="white" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer-mobile-bottom">
+        <div class="container">
+            <a href="" class=""><?= renderImg('aiims.png', 'logo') ?></a>
+            <div class="fw-700 fs-12 text-white pt-4">Copyright <?= date('Y') ?> <span class="text-primary px-3">/</span><?= $site ?><span class="text-primary px-3">/</span>All Rights Reserved</div>
+        </div>
+    </section>
+</div>
