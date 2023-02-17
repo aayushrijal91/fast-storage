@@ -310,7 +310,7 @@
 <section class="testimonials">
     <div class="container-fluid">
         <div class="row justify-content-lg-end gy-5">
-            <div class="col-md-8 col-lg-5 col-xl-4">
+            <div class="col-md-8 col-lg-6 col-xl-4">
                 <div class="text-primary fs-63 fw-700 ls-3 lh-1">your <span class="text-white bg-quartinary">trusted</span> removalist &amp; storage services in sydney<span class="text-quartinary">.</span></div>
                 <div class="row align-items-center py-5 d-none d-lg-flex">
                     <div class="col-auto"><?= renderImg('google.png', 'icons') ?></div>
@@ -367,7 +367,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-7 col-xl-6">
+            <div class="col-lg-6">
                 <?php
                 $testimonials = [
                     [

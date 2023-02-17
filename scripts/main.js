@@ -30,12 +30,13 @@ $(".testimonial-slider").slick({
     arrows: false,
     centerMode: true,
     centerPadding: "100px",
+    autoplay: true,
     responsive: [
         {
             breakpoint: 1200,
             settings: {
                 slidesToShow: 1,
-                centerPadding: "80px",
+                centerPadding: "50px",
             }
         },
         {
