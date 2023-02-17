@@ -21,7 +21,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['token'])) {
         $name = $_POST['name'];
         $phone = $_POST['phone'];
         $email = $_POST['email'];
-        $message = $_POST['message'];
+        $storageSize = $_POST['storageSize'];
+        $enquiry = $_POST['enquiry'];
 
         $message = '<!DOCTYPE html>
                 <html>
@@ -58,8 +59,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['token'])) {
             '<td><b>' . strip_tags($email) . '</b></td>' .
             '</tr>' .
             '<tr>' .
-            '<td>Message</td>' .
-            '<td><b>' . strip_tags($message) . '</b></td>' .
+            '<td>Storage Size</td>' .
+            '<td><b>' . strip_tags($storageSize) . '</b></td>' .
+            '</tr>' .
+            '<tr>' .
+            '<td>Enquiry</td>' .
+            '<td><b>' . strip_tags($enquiry) . '</b></td>' .
             '</tr>' .
             '</tbody></table></body></html>';
 

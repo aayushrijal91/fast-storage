@@ -303,6 +303,7 @@
             </div>
             <div class="col-10 col-xl-6 col-xxl-5">
                 <form action="./src/form" method="POST" class="main-form">
+                    <input type="hidden" name="token" id="recaptchaResponse1" class="recaptchaResponse">
                     <div class="row align-items-center pb-5 d-none d-xl-flex">
                         <div class="col-auto fw-600 fs-25 ls-3 lh-1">we'll get back to you asap</div>
                         <div class="col">
@@ -324,6 +325,12 @@
                             <label for="storageSize" class="mb-2">select storage size</label>
                             <select name="storageSize" class="form-control form-select" id="storageSize">
                                 <option selected disabled>select here</option>
+                                <option>the mini box (a few items)</option>
+                                <option>the solo box (1 bedroom home)</option>
+                                <option>the duo box (2 bedroom home)</option>
+                                <option>the tri box (2-3 bedroom home)</option>
+                                <option>the family vault (3-4 bedroom home)</option>
+                                <option>the mega vault (large home or office)</option>
                             </select>
                         </div>
                         <div class="col-12">
@@ -676,6 +683,7 @@
             </div>
             <div class="col-10 col-lg-6 col-xxl-5">
                 <form action="./src/form" method="POST" class="main-form">
+                    <input type="hidden" name="token" id="recaptchaResponse2" class="recaptchaResponse">
                     <div class="row align-items-center pb-5 d-none d-lg-flex">
                         <div class="col-auto fw-600 fs-25 ls-3 lh-1">we'll get back to you asap</div>
                         <div class="col">
@@ -696,6 +704,12 @@
                             <label for="storageSize" class="mb-2">select storage size</label>
                             <select name="storageSize" class="form-control form-select" id="storageSize">
                                 <option selected disabled>select here</option>
+                                <option>the mini box (a few items)</option>
+                                <option>the solo box (1 bedroom home)</option>
+                                <option>the duo box (2 bedroom home)</option>
+                                <option>the tri box (2-3 bedroom home)</option>
+                                <option>the family vault (3-4 bedroom home)</option>
+                                <option>the mega vault (large home or office)</option>
                             </select>
                         </div>
                         <div class="col-12">
