@@ -3,7 +3,7 @@ include __DIR__ . '/env.php';
 
 $site = "Fast Storage";
 $phone_number = "1300 017 159";
-$admin_email = 'arijal@aiims.com.au'; // 'info@wemovegroup.com.au'; 
+$admin_email = 'info@wemovegroup.com.au'; 
 $bcc_email = "kalbassit@aiims.com.au";
 $no_reply_email = 'info@wemovegroup.com.au';
 $recaptcha_client_secret = $client_secret;
