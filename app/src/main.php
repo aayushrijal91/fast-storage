@@ -42,9 +42,127 @@
         <div class="text-primary fs-63 fw-700 ls-3 lh-1">find the <span class="bg-quartinary text-white">right size</span> for your storage solution<span class="text-quartinary">.</span></div>
         <div class="ls-3 pt-4 pb-9 text-grey fw-500">select the size below that currently matches your own property the best to find out which size is right for you.</div>
 
-        <div class="row radio-toolbar g-3 gx-md-2 position-relative">
+        <div class="row justify-content-end d-md-none radio-toolbar-sm">
+            <div class="col-1">
+                <div class="vertical-bar"></div>
+            </div>
+            <div class="col-8">
+                <div class="row gy-5">
+                    <div class="col-12 position-relative">
+                        <div class="price-target" target="1">
+                            <div class="text-primary lh-1 fs-60 fw-700 ls-3">$119</div>
+                            <div class="text-grey ls-3 lh-1">per month</div>
+                        </div>
+                        <input class="form-check-input form-control box-size" type="radio" name="smboxSize" value="1" id="smboxSize_1" checked>
+                        <label class="form-check-label" for="smboxSize_1">
+                            <div class="d-flex gap-2 align-items-end">
+                                <div class="horizontal-line-sm"></div>
+                                <div>suitable for<br> <span class="fw-700">a few items</span></div>
+                                <svg width="43" height="19" viewBox="0 0 43 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M-7.51318e-07 1.81184L8.36937 9.5L-7.91982e-08 17.1882L1.97238 19L11.3279 10.4059C11.5894 10.1656 11.7364 9.83977 11.7364 9.5C11.7364 9.16023 11.5894 8.83437 11.3279 8.59408L1.97238 -8.62156e-08L-7.51318e-07 1.81184Z" fill="#58D1C3" />
+                                    <path d="M15.3437 1.81184L23.7131 9.5L15.3437 17.1882L17.3161 19L26.6717 10.4059C26.9332 10.1656 27.0801 9.83977 27.0801 9.5C27.0801 9.16023 26.9332 8.83437 26.6717 8.59408L17.3161 -8.62156e-08L15.3437 1.81184Z" fill="#58D1C3" />
+                                    <path d="M30.6875 1.81184L39.0569 9.5L30.6875 17.1882L32.6599 19L42.0154 10.4059C42.2769 10.1656 42.4239 9.83977 42.4239 9.5C42.4239 9.16023 42.2769 8.83437 42.0154 8.59408L32.6599 -8.62156e-08L30.6875 1.81184Z" fill="#58D1C3" />
+                                </svg>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="col-12 position-relative">
+                        <div class="price-target" target="2">
+                            <div class="text-primary lh-1 fs-60 fw-700 ls-3">$120</div>
+                            <div class="text-grey ls-3 lh-1">per month</div>
+                        </div>
+                        <input class="form-check-input form-control box-size" type="radio" name="smboxSize" value="2" id="smboxSize_2">
+                        <label class="form-check-label" for="smboxSize_2">
+                            <div class="d-flex gap-2 align-items-end">
+                                <div class="horizontal-line-sm"></div>
+                                <div>suitable for <span class="fw-700">1<br> bedroom home</span></div>
+                                <svg width="43" height="19" viewBox="0 0 43 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M-7.51318e-07 1.81184L8.36937 9.5L-7.91982e-08 17.1882L1.97238 19L11.3279 10.4059C11.5894 10.1656 11.7364 9.83977 11.7364 9.5C11.7364 9.16023 11.5894 8.83437 11.3279 8.59408L1.97238 -8.62156e-08L-7.51318e-07 1.81184Z" fill="#58D1C3" />
+                                    <path d="M15.3437 1.81184L23.7131 9.5L15.3437 17.1882L17.3161 19L26.6717 10.4059C26.9332 10.1656 27.0801 9.83977 27.0801 9.5C27.0801 9.16023 26.9332 8.83437 26.6717 8.59408L17.3161 -8.62156e-08L15.3437 1.81184Z" fill="#58D1C3" />
+                                    <path d="M30.6875 1.81184L39.0569 9.5L30.6875 17.1882L32.6599 19L42.0154 10.4059C42.2769 10.1656 42.4239 9.83977 42.4239 9.5C42.4239 9.16023 42.2769 8.83437 42.0154 8.59408L32.6599 -8.62156e-08L30.6875 1.81184Z" fill="#58D1C3" />
+                                </svg>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="col-12 position-relative">
+                        <div class="price-target" target="3">
+                            <div class="text-primary lh-1 fs-60 fw-700 ls-3">$130</div>
+                            <div class="text-grey ls-3 lh-1">per month</div>
+                        </div>
+                        <input class="form-check-input form-control box-size" type="radio" name="smboxSize" value="3" id="smboxSize_3">
+                        <label class="form-check-label" for="smboxSize_3">
+                            <div class="d-flex gap-2 align-items-end">
+                                <div class="horizontal-line-sm"></div>
+                                <div>suitable for <span class="fw-700">2<br> bedroom home</span></div>
+                                <svg width="43" height="19" viewBox="0 0 43 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M-7.51318e-07 1.81184L8.36937 9.5L-7.91982e-08 17.1882L1.97238 19L11.3279 10.4059C11.5894 10.1656 11.7364 9.83977 11.7364 9.5C11.7364 9.16023 11.5894 8.83437 11.3279 8.59408L1.97238 -8.62156e-08L-7.51318e-07 1.81184Z" fill="#58D1C3" />
+                                    <path d="M15.3437 1.81184L23.7131 9.5L15.3437 17.1882L17.3161 19L26.6717 10.4059C26.9332 10.1656 27.0801 9.83977 27.0801 9.5C27.0801 9.16023 26.9332 8.83437 26.6717 8.59408L17.3161 -8.62156e-08L15.3437 1.81184Z" fill="#58D1C3" />
+                                    <path d="M30.6875 1.81184L39.0569 9.5L30.6875 17.1882L32.6599 19L42.0154 10.4059C42.2769 10.1656 42.4239 9.83977 42.4239 9.5C42.4239 9.16023 42.2769 8.83437 42.0154 8.59408L32.6599 -8.62156e-08L30.6875 1.81184Z" fill="#58D1C3" />
+                                </svg>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="col-12 position-relative">
+                        <div class="price-target" target="4">
+                            <div class="text-primary lh-1 fs-60 fw-700 ls-3">$140</div>
+                            <div class="text-grey ls-3 lh-1">per month</div>
+                        </div>
+                        <input class="form-check-input form-control box-size" type="radio" name="smboxSize" value="4" id="smboxSize_4">
+                        <label class="form-check-label" for="smboxSize_4">
+                            <div class="d-flex gap-2 align-items-end">
+                                <div class="horizontal-line-sm"></div>
+                                <div>suitable for <span class="fw-700">2-3<br> bedroom home</span></div>
+                                <svg width="43" height="19" viewBox="0 0 43 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M-7.51318e-07 1.81184L8.36937 9.5L-7.91982e-08 17.1882L1.97238 19L11.3279 10.4059C11.5894 10.1656 11.7364 9.83977 11.7364 9.5C11.7364 9.16023 11.5894 8.83437 11.3279 8.59408L1.97238 -8.62156e-08L-7.51318e-07 1.81184Z" fill="#58D1C3" />
+                                    <path d="M15.3437 1.81184L23.7131 9.5L15.3437 17.1882L17.3161 19L26.6717 10.4059C26.9332 10.1656 27.0801 9.83977 27.0801 9.5C27.0801 9.16023 26.9332 8.83437 26.6717 8.59408L17.3161 -8.62156e-08L15.3437 1.81184Z" fill="#58D1C3" />
+                                    <path d="M30.6875 1.81184L39.0569 9.5L30.6875 17.1882L32.6599 19L42.0154 10.4059C42.2769 10.1656 42.4239 9.83977 42.4239 9.5C42.4239 9.16023 42.2769 8.83437 42.0154 8.59408L32.6599 -8.62156e-08L30.6875 1.81184Z" fill="#58D1C3" />
+                                </svg>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="col-12 position-relative">
+                        <div class="price-target" target="5">
+                            <div class="text-primary lh-1 fs-60 fw-700 ls-3">$150</div>
+                            <div class="text-grey ls-3 lh-1">per month</div>
+                        </div>
+                        <input class="form-check-input form-control box-size" type="radio" name="smboxSize" value="5" id="smboxSize_5">
+                        <label class="form-check-label" for="smboxSize_5">
+                            <div class="d-flex gap-2 align-items-end">
+                                <div class="horizontal-line-sm"></div>
+                                <div>suitable for <span class="fw-700">3-4<br> bedroom home</span></div>
+                                <svg width="43" height="19" viewBox="0 0 43 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M-7.51318e-07 1.81184L8.36937 9.5L-7.91982e-08 17.1882L1.97238 19L11.3279 10.4059C11.5894 10.1656 11.7364 9.83977 11.7364 9.5C11.7364 9.16023 11.5894 8.83437 11.3279 8.59408L1.97238 -8.62156e-08L-7.51318e-07 1.81184Z" fill="#58D1C3" />
+                                    <path d="M15.3437 1.81184L23.7131 9.5L15.3437 17.1882L17.3161 19L26.6717 10.4059C26.9332 10.1656 27.0801 9.83977 27.0801 9.5C27.0801 9.16023 26.9332 8.83437 26.6717 8.59408L17.3161 -8.62156e-08L15.3437 1.81184Z" fill="#58D1C3" />
+                                    <path d="M30.6875 1.81184L39.0569 9.5L30.6875 17.1882L32.6599 19L42.0154 10.4059C42.2769 10.1656 42.4239 9.83977 42.4239 9.5C42.4239 9.16023 42.2769 8.83437 42.0154 8.59408L32.6599 -8.62156e-08L30.6875 1.81184Z" fill="#58D1C3" />
+                                </svg>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="col-12 position-relative">
+                        <div class="price-target" target="6">
+                            <div class="text-primary lh-1 fs-60 fw-700 ls-3">$160</div>
+                            <div class="text-grey ls-3 lh-1">per month</div>
+                        </div>
+                        <input class="form-check-input form-control box-size" type="radio" name="smboxSize" value="6" id="smboxSize_6">
+                        <label class="form-check-label" for="smboxSize_6">
+                            <div class="d-flex gap-2 align-items-end">
+                                <div class="horizontal-line-sm"></div>
+                                <div>suitable for<br> <span class="fw-700">large home or office</span></div>
+                                <svg width="43" height="19" viewBox="0 0 43 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M-7.51318e-07 1.81184L8.36937 9.5L-7.91982e-08 17.1882L1.97238 19L11.3279 10.4059C11.5894 10.1656 11.7364 9.83977 11.7364 9.5C11.7364 9.16023 11.5894 8.83437 11.3279 8.59408L1.97238 -8.62156e-08L-7.51318e-07 1.81184Z" fill="#58D1C3" />
+                                    <path d="M15.3437 1.81184L23.7131 9.5L15.3437 17.1882L17.3161 19L26.6717 10.4059C26.9332 10.1656 27.0801 9.83977 27.0801 9.5C27.0801 9.16023 26.9332 8.83437 26.6717 8.59408L17.3161 -8.62156e-08L15.3437 1.81184Z" fill="#58D1C3" />
+                                    <path d="M30.6875 1.81184L39.0569 9.5L30.6875 17.1882L32.6599 19L42.0154 10.4059C42.2769 10.1656 42.4239 9.83977 42.4239 9.5C42.4239 9.16023 42.2769 8.83437 42.0154 8.59408L32.6599 -8.62156e-08L30.6875 1.81184Z" fill="#58D1C3" />
+                                </svg>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row radio-toolbar g-3 gx-md-2 position-relative d-none d-md-flex">
             <div class="bar"></div>
-            <div class="col-4 col-lg">
+            <div class="col-md-4 col-lg">
                 <input class="form-check-input form-control box-size" type="radio" name="boxSize" value="1" id="boxSize_1" checked>
                 <label class="form-check-label" for="boxSize_1">
                     <div>
@@ -58,7 +176,7 @@
                     </div>
                 </label>
             </div>
-            <div class="col-4 col-lg">
+            <div class="col-md-4 col-lg">
                 <input class="form-check-input form-control box-size" type="radio" name="boxSize" value="2" id="boxSize_2">
                 <label class="form-check-label" for="boxSize_2">
                     <div>
@@ -72,7 +190,7 @@
                     </div>
                 </label>
             </div>
-            <div class="col-4 col-lg">
+            <div class="col-md-4 col-lg">
                 <input class="form-check-input form-control box-size" type="radio" name="boxSize" value="3" id="boxSize_3">
                 <label class="form-check-label" for="boxSize_3">
                     <div>
@@ -86,7 +204,7 @@
                     </div>
                 </label>
             </div>
-            <div class="col-4 col-lg">
+            <div class="col-md-4 col-lg">
                 <input class="form-check-input form-control box-size" type="radio" name="boxSize" value="4" id="boxSize_4">
                 <label class="form-check-label" for="boxSize_4">
                     <div>
@@ -100,7 +218,7 @@
                     </div>
                 </label>
             </div>
-            <div class="col-4 col-lg">
+            <div class="col-md-4 col-lg">
                 <input class="form-check-input form-control box-size" type="radio" name="boxSize" value="5" id="boxSize_5">
                 <label class="form-check-label" for="boxSize_5">
                     <div>
@@ -114,7 +232,7 @@
                     </div>
                 </label>
             </div>
-            <div class="col-4 col-lg">
+            <div class="col-md-4 col-lg">
                 <input class="form-check-input form-control box-size" type="radio" name="boxSize" value="6" id="boxSize_6">
                 <label class="form-check-label" for="boxSize_6">
                     <div>
@@ -130,16 +248,16 @@
             </div>
         </div>
 
-        <div class="text-center fs-25 ls-3 text-grey row justify-content-center align-items-center gx-0">
+        <div class="text-center fs-25 ls-3 text-grey row justify-content-center align-items-center gx-0 d-none d-md-flex">
             <div class="col-auto">you've chosen...</div>
             <div class="text-primary fs-60 fw-700 col-6 lh-1">
                 <div class="price-box">
                     <div>the mini box - 119</div>
-                    <div>the macro box - 120</div>
-                    <div>the macro box - 130</div>
-                    <div>the macro box - 140</div>
-                    <div>the macro box - 150</div>
-                    <div>the macro box - 160</div>
+                    <div>the solo box - 120</div>
+                    <div>the duo box - 130</div>
+                    <div>the tri box - 140</div>
+                    <div>the family vault - 150</div>
+                    <div>the mega vault - 160</div>
                 </div>
             </div>
             <div class="col-auto fw-500">/month</div>

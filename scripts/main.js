@@ -69,8 +69,14 @@ let priceBox = $(".price-box").slick({
     arrows: false
 });
 
+$('.price-target[target=1]').css('opacity', 1);
+
 $('.box-size').on('change', function () {
-    priceBox.slick('slickGoTo', parseInt($(this).val()) - 1);
+    let inputVal = $(this).val();
+    $(".price-target").css('opacity', '0');
+    $(`.price-target[target=${inputVal}]`).css('opacity', 1);
+
+    priceBox.slick('slickGoTo', parseInt(inputVal) - 1);
 });
 
 let emailText = $("#admin-email").html();
