@@ -33,6 +33,13 @@ $(".testimonial-slider").slick({
     autoplay: true,
     responsive: [
         {
+            breakpoint: 1600,
+            settings: {
+                slidesToShow: 1,
+                centerPadding: "100px",
+            }
+        },
+        {
             breakpoint: 1200,
             settings: {
                 slidesToShow: 1,

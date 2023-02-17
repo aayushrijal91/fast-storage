@@ -159,7 +159,7 @@
                 <div class="text-light ls-3 fw-700 fs-63 lh-1 pb-7">get started<br> & enquire today<span class="text-primary">.</span></div>
                 <?= renderImg('cardboard-box.png', 'lib', 'w-100 d-none d-xl-block') ?>
             </div>
-            <div class="col-10 col-xl-5">
+            <div class="col-10 col-xl-6 col-xxl-5">
                 <form action="./src/form" method="POST" class="main-form">
                     <div class="row align-items-center pb-5 d-none d-xl-flex">
                         <div class="col-auto fw-600 fs-25 ls-3 lh-1">we'll get back to you asap</div>
@@ -208,7 +208,7 @@
     <?= renderImg('about-1.png', 'background', 'w-100 pb-5 d-none d-md-block d-xl-none') ?>
     <div class="container">
         <div class="row gx-xl-10">
-            <div class="col-xl-7">
+            <div class="col-xl-6 col-xxl-7">
                 <div class="text-primary lh-1 fs-63 ls-3 fw-700 pb-2">
                     <span class="text-white bg-quartinary">professional</span>
                     <div>removalists &amp; storage team accessible 6 days a week in sydney.</div>
@@ -229,7 +229,7 @@
             <div class="col-xl-11">
                 <div class="row gx-xl-7">
                     <div class="col-6 position-relative d-none d-lg-block"><?= renderImg('boxedtrolley.png', 'lib', 'boxedTrolley') ?></div>
-                    <div class="col-lg-6 col-xl-5 content-box">
+                    <div class="col-lg-6 col-xxl-5 content-box">
                         <div class="fs-63 lh-1 fw-700 ls-3">we come to you <br><span class="bg-quartinary">sydney wide</span> with storage units<span class="text-quartinary">.</span></div>
                         <div class="fs-17 lh-1_7 pt-5">
                             <p class="mb-4">No matter where you are in Sydney, we've got you covered. Our mobile storage units can be delivered anywhere in the city, with small trucks that can fit down narrow streets or larger trucks for bigger jobs. Whether you're in the Western Sydney, Eastern Suburbs, North Shore, or anywhere else in the greater Sydney Metropolitan area, we'll bring your storage solution right to your door.</p>
@@ -246,7 +246,7 @@
 <section class="about-3">
     <div class="container">
         <div class="row">
-            <div class="col-xl-6">
+            <div class="col-xl-5 col-xxl-6">
                 <div class="fs-63 lh-1 fw-700 ls-3 text-primary">we have a foundation of care, <span class="bg-quartinary text-white">responsibility,</span> reliability &amp; honesty<span class="text-quartinary">.</span></div>
                 <div class="fs-17 text-grey py-4 py-md-5 py-lg-6 lh-1_7">
                     <p class="pb-4">Downsizing can be a hassle, whether it's because you're moving to a smaller home or office, or because you're setting off on an adventure and need to streamline your belongings. The solution is clear - finding a secure and reliable self storage space to keep your items safe and secure for as long as you need. But the process can quickly become overwhelming with all the options available.</p>
@@ -310,7 +310,7 @@
 <section class="testimonials">
     <div class="container-fluid">
         <div class="row justify-content-lg-end gy-5">
-            <div class="col-md-8 col-lg-6 col-xl-4">
+            <div class="col-md-8 col-lg-6 col-xl-5 col-xxl-4">
                 <div class="text-primary fs-63 fw-700 ls-3 lh-1">your <span class="text-white bg-quartinary">trusted</span> removalist &amp; storage services in sydney<span class="text-quartinary">.</span></div>
                 <div class="row align-items-center py-5 d-none d-lg-flex">
                     <div class="col-auto"><?= renderImg('google.png', 'icons') ?></div>
@@ -491,7 +491,7 @@
     <div class="floating-get-started">get started<span class="text-primary lh-1">.</span></div>
     <div class="container">
         <div class="row">
-            <div class="col-5 col-xl-7 d-none d-lg-block">
+            <div class="col-5 col-xl-6 col-xxl-7 d-none d-lg-block">
                 <div class="fs-83 lh-1 ls-3 fw-700">payments<span class="text-primary">.</span></div>
                 <div class="pt-4"><?= renderImg('payments.png', 'icons') ?></div>
                 <div class="fs-83 lh-1 ls-3 fw-700 pt-5">socials<span class="text-primary">.</span></div>
@@ -532,7 +532,7 @@
                 <div class="pt-9 pb-4"><a href="https://aiims.com.au/" target="_blank"><?= renderImg('aiims.png', 'logo') ?></a></div>
                 <div class="fw-700">Copyright <?= date('Y') ?> <span class="text-primary px-3">/</span><?= $site ?><span class="text-primary px-3">/</span>All Rights Reserved</div>
             </div>
-            <div class="col-10 col-lg-6 col-xl-5">
+            <div class="col-10 col-lg-6 col-xxl-5">
                 <form action="./src/form" method="POST" class="main-form">
                     <div class="row align-items-center pb-5 d-none d-lg-flex">
                         <div class="col-auto fw-600 fs-25 ls-3 lh-1">we'll get back to you asap</div>
