@@ -1,6 +1,6 @@
 <header>
     <div class="container">
-        <div class="row justify-content-center justify-content-lg-between align-items-center">
+        <div class="row justify-content-center justify-content-md-between align-items-center">
             <div class="col-auto d-none d-md-block">
                 <a href="./">
                     <?= renderImg("logo.png", "logo") ?>
@@ -9,12 +9,12 @@
             <div class="col-md-auto">
                 <div class="row justify-content-center justify-content-lg-end align-items-center">
                     <div class="col-6 col-md-auto">
-                        <a href="tel:<?= $phone_number ?>" class="btn border-white border rounded-0 text-white py-3 px-md-5">
+                        <a href="tel:<?= $phone_number ?>" class="btn border-white border rounded-0 text-white py-3 px-lg-5">
                             <?= $phone_number ?>
                         </a>
                     </div>
                     <div class="col-6 col-md-auto">
-                        <a href="#form" class="btn border-white border rounded-0 text-white py-3 px-md-5">
+                        <a href="#form" class="btn border-white border rounded-0 text-white py-3 px-lg-5">
                             enquire now
                         </a>
                     </div>
@@ -157,7 +157,7 @@
         <div class="row justify-content-between">
             <div class="col-lg-6 d-none d-md-block">
                 <div class="text-light ls-3 fw-700 fs-63 lh-1 pb-7">get started<br> & enquire today<span class="text-primary">.</span></div>
-                <?= renderImg('cardboard-box.png', 'lib', 'w-100') ?>
+                <?= renderImg('cardboard-box.png', 'lib', 'w-100 d-none d-lg-block') ?>
             </div>
             <div class="col-10 col-lg-6 col-xl-5">
                 <form action="./src/form" method="POST" class="main-form">
@@ -205,6 +205,7 @@
 
 <section class="about-1">
     <?= renderImg('about-1-sm.png', 'lib', 'w-100 pb-4 d-md-none') ?>
+    <?= renderImg('about-1.png', 'background', 'w-100 pb-5 d-none d-md-block d-lg-none') ?>
     <div class="container">
         <div class="row gx-xl-10">
             <div class="col-xl-7">
@@ -227,8 +228,8 @@
         <div class="row justify-content-center">
             <div class="col-xl-11">
                 <div class="row gx-xl-7">
-                    <div class="col-6 position-relative d-none d-md-block"><?= renderImg('boxedtrolley.png', 'lib', 'boxedTrolley') ?></div>
-                    <div class="col-md-5 content-box">
+                    <div class="col-6 position-relative d-none d-lg-block"><?= renderImg('boxedtrolley.png', 'lib', 'boxedTrolley') ?></div>
+                    <div class="col-lg-5 content-box">
                         <div class="fs-63 lh-1 fw-700 ls-3">we come to you <br><span class="bg-quartinary">sydney wide</span> with storage units<span class="text-quartinary">.</span></div>
                         <div class="fs-17 lh-1_7 pt-5">
                             <p class="mb-4">No matter where you are in Sydney, we've got you covered. Our mobile storage units can be delivered anywhere in the city, with small trucks that can fit down narrow streets or larger trucks for bigger jobs. Whether you're in the Western Sydney, Eastern Suburbs, North Shore, or anywhere else in the greater Sydney Metropolitan area, we'll bring your storage solution right to your door.</p>
