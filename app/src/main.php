@@ -310,7 +310,7 @@
         <div class="row justify-content-end gy-5">
             <div class="col-md-4">
                 <div class="text-primary fs-63 fw-700 ls-3 lh-1">your <span class="text-white bg-quartinary">trusted</span> removalist &amp; storage services in sydney<span class="text-quartinary">.</span></div>
-                <div class="row align-items-center py-5">
+                <div class="row align-items-center py-5 d-none d-md-flex">
                     <div class="col-auto"><?= renderImg('google.png', 'icons') ?></div>
                     <div class="col-auto d-flex align-items-center">
                         <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -326,7 +326,7 @@
                         <div class="fs-19 ls-3 lh-1">reviews</div>
                     </div>
                 </div>
-                <div class="row gx-3">
+                <div class="row gx-3 pt-5 pt-md-0">
                     <div class="col-6 col-md-auto">
                         <div class="review-platform bg-primary-light px-2 py-1">
                             <div class="row align-items-center gx-2">
@@ -408,6 +408,24 @@
                         </div>
                     <?php } ?>
                 </div>
+                <div class="d-flex justify-content-center d-md-none mt-n4 position-relative">
+                    <div class="row align-items-center py-2 bg-secondary gx-3">
+                        <div class="col-auto"><?= renderImg('google.png', 'icons') ?></div>
+                        <div class="col-auto d-flex align-items-center">
+                            <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.99789 1.14792C9.27539 0.439533 10.2779 0.439532 10.5554 1.14792L12.3874 5.82454C12.5063 6.12824 12.791 6.33507 13.1166 6.35437L18.1305 6.65156C18.8899 6.69658 19.1997 7.64998 18.6117 8.1328L14.7301 11.3203C14.4781 11.5273 14.3693 11.862 14.4516 12.1776L15.7183 17.0379C15.9102 17.7741 15.0992 18.3633 14.4583 17.9533L10.2273 15.2467C9.95256 15.0709 9.60068 15.0709 9.32592 15.2467L5.09495 17.9533C4.45406 18.3633 3.64305 17.7741 3.83493 17.0379L5.10164 12.1776C5.18391 11.862 5.07517 11.5273 4.8231 11.3203L0.941494 8.1328C0.353527 7.64998 0.663303 6.69658 1.42278 6.65156L6.43663 6.35437C6.76223 6.33507 7.0469 6.12824 7.16587 5.82454L8.99789 1.14792Z" fill="#FFF16F" />
+                            </svg>
+                            <span class="fs-28 ls-3 text-white fw-700 lh-1 ps-1">(4.7)</span>
+                        </div>
+                        <div class="col-auto">
+                            <div class="vertical-line bg-quartinary"></div>
+                        </div>
+                        <div class="col-auto">
+                            <div class="text-white lh-0_77 fs-28 ls-3 fw-700">250+</div>
+                            <div class="text-white fs-19 ls-3 lh-1">reviews</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -423,7 +441,7 @@
             </div>
             <div class="col-md-7">
                 <div class="text-primary fs-38 ls-3">email us</div>
-                <div class="text-secondary fs-63 fw-700 ls-3" id="admin-email"><?= $admin_email ?></div>
+                <a href="mailto:<?= $admin_email ?>" class="text-decoration-none text-secondary fs-63 fw-700 ls-3" id="admin-email"><?= $admin_email ?></a>
                 <div class="pt-5"><a href="#form" class="btn btn-quartinary text-white rounded-0 px-4 px-md-5 d-inline-flex">enquire now</a></div>
             </div>
         </div>
